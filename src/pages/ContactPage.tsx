@@ -24,9 +24,9 @@ export function ContactPage() {
     {
       country: 'Österreich',
       city: 'Wien',
-      address: 'Gymnayium strasse, 1010 Wien',
+      address: 'Stephansplatz 1, 1010 Wien',
       phone: '+43 1 2345678',
-      email: 'Dietmar@datahelp.eu'
+      email: 'wien@datahelp.eu'
     },
     {
       country: 'Polska',
@@ -43,11 +43,11 @@ export function ContactPage() {
       email: 'bratislava@datahelp.eu'
     },
     {
-      country: 'Slovensko',
-      city: 'Bratislava',
-      address: 'ProLaika ',
+      country: 'Hungary',
+      city: 'Budapest',
+      address: 'Andrássy út 1, 1061 Budapest',
       phone: '+36 1 2345678',
-      email: 'prolaikat@datahelp.eu'
+      email: 'budapest@datahelp.eu'
     }
   ];
 

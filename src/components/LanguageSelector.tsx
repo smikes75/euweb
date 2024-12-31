@@ -2,16 +2,24 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const FLAGS = {
-  en: "🇬🇧",
   cs: "🇨🇿",
   de: "🇩🇪",
-  it: "🇮🇹"
-};
+  en: "🇬🇧"
+} as const;
+
+type LanguageKey = keyof typeof FLAGS;
 
 export function LanguageSelector() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Set default language to Czech if not already set
+  useEffect(() => {
+    if (!i18n.language || !Object.keys(FLAGS).includes(i18n.language)) {
+      i18n.changeLanguage('cs');
+    }
+  }, [i18n]);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -24,18 +32,21 @@ export function LanguageSelector() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const changeLanguage = (lng: string) => {
+  const changeLanguage = (lng: LanguageKey) => {
     i18n.changeLanguage(lng);
     setIsOpen(false);
   };
+
+  const currentFlag = FLAGS[i18n.language as LanguageKey] || FLAGS.cs;
 
   return (
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center px-3 py-2 rounded-md hover:bg-gray-100 transition-colors"
+        aria-label="Vybrat jazyk"
       >
-        <span className="text-2xl">{FLAGS[i18n.language as keyof typeof FLAGS]}</span>
+        <span className="text-2xl">{currentFlag}</span>
       </button>
 
       {isOpen && (
@@ -43,7 +54,7 @@ export function LanguageSelector() {
           {Object.entries(FLAGS).map(([lang, flag]) => (
             <button
               key={lang}
-              onClick={() => changeLanguage(lang)}
+              onClick={() => changeLanguage(lang as LanguageKey)}
               className={`w-full flex items-center px-4 py-2 text-left hover:bg-gray-100 ${
                 i18n.language === lang ? 'bg-primary/10' : ''
               }`}

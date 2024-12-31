@@ -1,6 +1,7 @@
 import React from 'react';
 import { HardDrive, Shield, Wrench, AlertCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { backgroundImages } from '../../utils/imageUtils';
 
 export function HDDRecoveryPage() {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ export function HDDRecoveryPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage: 'url("/images/backgrounds/hdd-recovery.jpg")',
+            backgroundImage: `url("${backgroundImages.hdd}")`
           }}
         >
           <div 

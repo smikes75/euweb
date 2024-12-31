@@ -5,9 +5,9 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { ServicesPage } from './pages/ServicesPage';
 import { AboutUsPage } from './pages/AboutUsPage';
-import { TechnologyPage } from './pages/about/TechnologyPage';
 import { ContactPage } from './pages/ContactPage';
 import { PricingPage } from './pages/PricingPage';
+import { TechnologyPage } from './pages/TechnologyPage';
 import { HDDRecoveryPage } from './pages/services/HDDRecoveryPage';
 import { SSDRecoveryPage } from './pages/services/SSDRecoveryPage';
 import { RAIDSystemsPage } from './pages/services/RAIDSystemsPage';
@@ -30,7 +30,7 @@ function App() {
             <Route path="/services/raid-systems" element={<RAIDSystemsPage />} />
             <Route path="/services/business-solutions" element={<BusinessSolutionsPage />} />
             <Route path="/about" element={<AboutUsPage />} />
-            <Route path="/about/technology" element={<TechnologyPage />} />
+            <Route path="/technology" element={<TechnologyPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/pricing" element={<PricingPage />} />
           </Routes>

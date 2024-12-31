@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Users, Clock, Shield } from 'lucide-react';
+import { Award, Users, Clock, Shield, Cpu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { Link } from 'react-router-dom';
@@ -43,12 +43,15 @@ export function AboutUsPage() {
           <p className="text-lg text-gray-600 leading-relaxed mb-8">
             {t('about.description')}
           </p>
-          <div className="text-center">
+          
+          {/* Technology Button */}
+          <div className="flex justify-center">
             <Link 
-              to="/about/technology" 
-              className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-light transition"
+              to="/technology" 
+              className="inline-flex items-center space-x-2 bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-light transition"
             >
-              <span>{t('about.technology.learnMore')}</span>
+              <Cpu className="h-5 w-5" />
+              <span>{t('techPage.title')}</span>
             </Link>
           </div>
         </div>

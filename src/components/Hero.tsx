@@ -2,6 +2,7 @@ import React from 'react';
 import { Shield, Server, Trophy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { backgroundImages } from '../utils/imageUtils';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -11,7 +12,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: 'url("/DataHelp.eu.jpg")',
+          backgroundImage: `url("${backgroundImages.about}")`
         }}
       >
         <div 

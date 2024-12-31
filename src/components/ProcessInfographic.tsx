@@ -46,7 +46,7 @@ export function ProcessInfographic() {
           <h2 className="text-3xl font-bold text-primary mb-4">{t('process.title', 'Proces záchrany dat')}</h2>
           <div className="flex items-center justify-center space-x-2 text-accent">
             <ShieldCheck className="h-5 w-5" />
-            <p className="text-sm">{t('process.guarantee', 'Pokud data nelze zachránit neplatíte nic')}</p>
+            <p className="text-sm">{t('process.guarantee', 'V případě neúspěšné záchrany neplatíte nic')}</p>
           </div>
         </div>
 
