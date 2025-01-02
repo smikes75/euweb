@@ -13,6 +13,10 @@ export function Header() {
   const { t } = useTranslation();
 
   useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location.pathname]);
+
+  useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
     };
@@ -39,6 +43,7 @@ export function Header() {
             <Link to="/services" className={isActive("/services")}>{t('nav.services')}</Link>
             <Link to="/about" className={isActive("/about")}>{t('nav.about')}</Link>
             <Link to="/pricing" className={isActive("/pricing")}>{t('nav.pricing')}</Link>
+            <Link to="/faq" className={isActive("/faq")}>FAQ</Link>
             <Link to="/contact" className={isActive("/contact")}>{t('nav.contact')}</Link>
             <LanguageSelector />
           </div>
@@ -63,6 +68,7 @@ export function Header() {
             <Link to="/services" className={`block font-bold ${isActive("/services")}`}>{t('nav.services')}</Link>
             <Link to="/about" className={`block font-bold ${isActive("/about")}`}>{t('nav.about')}</Link>
             <Link to="/pricing" className={`block font-bold ${isActive("/pricing")}`}>{t('nav.pricing')}</Link>
+            <Link to="/faq" className={`block font-bold ${isActive("/faq")}`}>FAQ</Link>
             <Link to="/contact" className={`block font-bold ${isActive("/contact")}`}>{t('nav.contact')}</Link>
           </div>
         )}

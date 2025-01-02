@@ -2,6 +2,7 @@ import React from 'react';
 import { HardDrive, Smartphone, Database, Building2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
+import { FAQ } from '../components/FAQ';
 
 export function PricingPage() {
   const { t } = useTranslation();
@@ -74,7 +75,7 @@ export function PricingPage() {
           {t('pricing.description')}
         </p>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {pricingTiers.map((tier, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
               <div className="flex justify-center mb-6">{tier.icon}</div>
@@ -103,6 +104,8 @@ export function PricingPage() {
             </div>
           ))}
         </div>
+
+        <FAQ />
       </div>
     </div>
   );

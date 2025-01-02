@@ -1,6 +1,9 @@
 import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { FormInput } from './ui/FormInput';
+import { FormTextarea } from './ui/FormTextarea';
+import { FormButton } from './ui/FormButton';
 
 export function Contact() {
   const { t } = useTranslation();
@@ -31,33 +34,24 @@ export function Contact() {
             </div>
 
             <form className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700">{t('contact.form.name')}</label>
-                <input
-                  type="text"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">{t('contact.form.email')}</label>
-                <input
-                  type="email"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">{t('contact.form.message')}</label>
-                <textarea
-                  rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-light transition"
-              >
+              <FormInput
+                type="text"
+                label={t('contact.form.name')}
+                required
+              />
+              <FormInput
+                type="email"
+                label={t('contact.form.email')}
+                required
+              />
+              <FormTextarea
+                rows={4}
+                label={t('contact.form.message')}
+                required
+              />
+              <FormButton type="submit">
                 {t('contact.form.send')}
-              </button>
+              </FormButton>
             </form>
           </div>
         </div>

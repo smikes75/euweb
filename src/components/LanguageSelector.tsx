@@ -17,7 +17,7 @@ export function LanguageSelector() {
   // Set default language to Czech if not already set
   useEffect(() => {
     if (!i18n.language || !Object.keys(FLAGS).includes(i18n.language)) {
-      i18n.changeLanguage('cs');
+      i18n.changeLanguage('en');
     }
   }, [i18n]);
 

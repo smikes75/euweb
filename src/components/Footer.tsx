@@ -14,9 +14,9 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-6">DataHelp</h3>
             <div className="space-y-3">
-              <Link to="/" className="block hover:text-accent transition-colors">{t('nav.home')}</Link>
               <Link to="/services" className="block hover:text-accent transition-colors">{t('nav.services')}</Link>
               <Link to="/about" className="block hover:text-accent transition-colors">{t('nav.about')}</Link>
+              <Link to="/faq" className="block hover:text-accent transition-colors">FAQ</Link>
             </div>
           </div>
 
@@ -68,11 +68,11 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-sm">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} DataHelp.eu
             </div>
-            <div className="flex space-x-6 text-sm">
+            <div className="flex flex-wrap gap-4 md:gap-6 text-sm">
               <Link to="/privacy" className="hover:text-accent transition-colors">{t('footer.privacy')}</Link>
               <Link to="/terms" className="hover:text-accent transition-colors">{t('footer.terms')}</Link>
               <Link to="/cookies" className="hover:text-accent transition-colors">{t('footer.cookies')}</Link>

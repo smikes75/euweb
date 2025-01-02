@@ -12,7 +12,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: `url("${backgroundImages.about}")`
+          backgroundImage: `url("${backgroundImages.home}")`
         }}
       >
         <div 

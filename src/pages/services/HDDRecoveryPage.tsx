@@ -64,28 +64,49 @@ export function HDDRecoveryPage() {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-bold mb-6 text-primary">{t('services.hdd.process.title')}</h2>
-          <div className="space-y-6">
-            <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 rounded-full bg-accent text-white flex items-center justify-center flex-shrink-0">1</div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-primary">{t('services.hdd.process.diagnosis.title')}</h3>
-                <p className="text-gray-600">{t('services.hdd.process.diagnosis.description')}</p>
-              </div>
+          <h2 className="text-2xl font-bold mb-6 text-primary">{t('services.hdd.supported.title')}</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-primary">{t('services.hdd.supported.devices')}</h3>
+              <ul className="space-y-2">
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>{t('services.hdd.supported.sata')}</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>{t('services.hdd.supported.ide')}</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>{t('services.hdd.supported.scsi')}</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>{t('services.hdd.supported.external')}</span>
+                </li>
+              </ul>
             </div>
-            <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 rounded-full bg-accent text-white flex items-center justify-center flex-shrink-0">2</div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-primary">{t('services.hdd.process.repair.title')}</h3>
-                <p className="text-gray-600">{t('services.hdd.process.repair.description')}</p>
-              </div>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="w-8 h-8 rounded-full bg-accent text-white flex items-center justify-center flex-shrink-0">3</div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2 text-primary">{t('services.hdd.process.recovery.title')}</h3>
-                <p className="text-gray-600">{t('services.hdd.process.recovery.description')}</p>
-              </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-primary">{t('services.hdd.supported.manufacturers')}</h3>
+              <ul className="space-y-2">
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>Western Digital</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>Seagate</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>Toshiba</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <span>Hitachi / HGST</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

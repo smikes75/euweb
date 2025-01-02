@@ -51,23 +51,11 @@ export const cs = {
       desc: 'Obnova dat z mechanicky poškozených nebo nefunkčních pevných disků všech výrobců.',
       features: {
         mechanical: 'Mechanické poškození',
+        mechanicalDesc: 'Oprava poškozených hlav, výměna ploten, oprava elektroniky',
         electronic: 'Elektronické závady',
-        logical: 'Logické poškození'
-      },
-      process: {
-        title: 'Proces obnovy',
-        diagnosis: {
-          title: 'Diagnostika',
-          description: 'Komplexní analýza poškození disku a možností obnovy'
-        },
-        repair: {
-          title: 'Oprava',
-          description: 'Specializovaná oprava poškozených komponent'
-        },
-        recovery: {
-          title: 'Obnova dat',
-          description: 'Profesionální proces záchrany vašich dat'
-        }
+        electronicDesc: 'Diagnostika a oprava elektronických komponent, výměna PCB',
+        logical: 'Logické poškození',
+        logicalDesc: 'Obnova smazaných dat, oprava souborových systémů, obnova RAID'
       },
       supported: {
         title: 'Podporované technologie',
@@ -84,8 +72,11 @@ export const cs = {
       desc: 'Specializovaná obnova dat z flash pamětí a SSD disků.',
       features: {
         controller: 'Poruchy řadiče',
+        controllerDesc: 'Oprava nebo výměna poškozených řadičů',
         firmware: 'Opravy firmwaru',
-        flash: 'Poškození flash čipů'
+        firmwareDesc: 'Aktualizace a oprava poškozeného firmwaru',
+        flash: 'Poškození flash čipů',
+        flashDesc: 'Obnova dat z poškozených paměťových čipů'
       },
       supported: {
         title: 'Podporovaná zařízení',
@@ -101,8 +92,11 @@ export const cs = {
       desc: 'Obnova dat ze všech typů RAID polí a NAS serverů.',
       features: {
         hardware: 'Hardwarové RAID',
+        hardwareDesc: 'Obnova dat z hardwarových RAID řadičů všech výrobců',
         software: 'Softwarové RAID',
-        virtual: 'Virtuální systémy'
+        softwareDesc: 'Rekonstrukce softwarových RAID polí a virtuálních disků',
+        virtual: 'Virtuální systémy',
+        virtualDesc: 'Obnova dat z virtuálních strojů a úložišť'
       },
       supported: {
         title: 'Podporované systémy',
@@ -121,8 +115,11 @@ export const cs = {
       desc: 'Komplexní řešení pro firmy včetně podpory 24/7.',
       features: {
         support: 'Podpora 24/7',
+        supportDesc: 'Nepřetržitá technická podpora pro kritické případy',
         security: 'Maximální bezpečnost',
-        priority: 'Prioritní zpracování'
+        securityDesc: 'Šifrovaný přenos a zpracování dat v zabezpečeném prostředí',
+        priority: 'Prioritní zpracování',
+        priorityDesc: 'Přednostní zpracování požadavků firemních klientů'
       },
       sla: {
         title: 'SLA podmínky',
@@ -219,9 +216,12 @@ export const cs = {
         support: 'Dedikovaný specialista',
         onsite: 'Servis na místě'
       }
-    },
-    faq: {
-      title: 'Časté dotazy',
+    }
+  },
+  faq: {
+    title: 'Časté dotazy',
+    subtitle: 'Odpovědi na nejčastější otázky o záchraně dat',
+    questions: {
       q1: 'Jak se počítá konečná cena?',
       a1: 'Konečná cena závisí na typu a rozsahu poškození, potřebných dílech a složitosti obnovy.',
       q2: 'Nabízíte garanci "Bez dat, bez platby"?',
@@ -229,7 +229,24 @@ export const cs = {
       q3: 'Jak dlouho trvá proces obnovy?',
       a3: 'Standardní obnova trvá 2-5 pracovních dnů. Pro urgentní případy je k dispozici expresní služba.',
       q4: 'Jaké platební metody přijímáte?',
-      a4: 'Přijímáme všechny hlavní platební karty, bankovní převody a firemní objednávky.'
+      a4: 'Přijímáme všechny hlavní platební karty, bankovní převody a firemní objednávky.',
+      q5: 'Kdo jste a proč vám můžeme věřit?',
+      a5: 'Jsme evropská společnost s více než 20 lety zkušeností v oboru záchrany dat. Máme vlastní specializovanou laboratoř v Praze a certifikované techniky. Jsme držiteli ISO certifikací pro bezpečnost dat.',
+      
+      q6: 'Kam posíláte disky k opravě?',
+      a6: 'Nikam. Veškeré opravy a záchranu dat provádíme výhradně v naší vlastní laboratoři v Praze. Data nikdy neopouští naše zabezpečené prostory.',
+      
+      q7: 'Jak je zajištěna bezpečnost dat?',
+      a7: 'Pracujeme v zabezpečené laboratoři s kontrolovaným přístupem. Všechna data jsou šifrována a po úspěšné záchraně bezpečně smazána. Dodržujeme přísné bezpečnostní protokoly a jsme vázáni mlčenlivostí.',
+      
+      q8: 'Co když jsou data citlivá?',
+      a8: 'Jsme zvyklí pracovat s citlivými daty. Můžeme podepsat NDA a poskytnout nadstandardní bezpečnostní opatření. Pro firemní klienty nabízíme možnost osobní přítomnosti při práci s daty.',
+      
+      q9: 'Jaké jsou vaše úspěšnosti?',
+      a9: 'Naše úspěšnost záchrany dat přesahuje 95%. Díky vlastní laboratoři a špičkovému vybavení dokážeme řešit i velmi složité případy.',
+      
+      q10: 'Co když nemám zálohu?',
+      a10: 'To je běžná situace. Jsme specialisté na záchranu dat bez zálohy. Po úspěšné záchraně vám rádi poradíme s nastavením vhodného zálohovacího řešení.'
     }
   },
   contact: {
@@ -301,7 +318,7 @@ export const cs = {
     security: {
       title: 'Bezpečnostní protokoly',
       protocols: {
-        title: 'Zabezpečení dat',
+        title: 'Bezpečnost dat',
         description: 'Přísné bezpečnostní protokoly pro ochranu vašich dat'
       },
       specialists: {
@@ -348,6 +365,107 @@ export const cs = {
   footer: {
     privacy: 'Ochrana soukromí',
     terms: 'Obchodní podmínky',
-    cookies: 'Cookies'
+    cookies: 'Cookies',
+    legal: 'Právní informace'
+  },
+  privacy: {
+  title: 'Ochrana osobních údajů',
+  subtitle: 'Informace o zpracování a ochraně vašich osobních údajů',
+  dataProtection: {
+    title: 'Ochrana dat',
+    content: 'Vaše osobní údaje zpracováváme v souladu s GDPR a platnou legislativou. Používáme nejmodernější technologie a postupy pro zajištění maximální bezpečnosti vašich dat. Veškeré údaje jsou uchovávány na zabezpečených serverech v EU.'
+  },
+  security: {
+    title: 'Bezpečnostní opatření',
+    content: 'Implementujeme přísná bezpečnostní opatření včetně šifrování dat, kontroly přístupu a pravidelných bezpečnostních auditů. Naši zaměstnanci jsou pravidelně školeni v oblasti ochrany osobních údajů a jsou vázáni mlčenlivostí.'
+  },
+  transparency: {
+    title: 'Transparentnost',
+    content: 'Jsme maximálně transparentní ohledně způsobu, jakým zpracováváme vaše osobní údaje. Shromažďujeme pouze údaje nezbytné pro poskytování našich služeb a nikdy je neprodáváme třetím stranám. Vaše data používáme výhradně pro účely, ke kterým jste nám dali souhlas.'
+  },
+  rights: {
+    title: 'Vaše práva',
+    content: 'Máte právo na přístup ke svým osobním údajům, jejich opravu nebo výmaz, právo na omezení zpracování a právo vznést námitku proti zpracování. Také máte právo na přenositelnost údajů a právo podat stížnost u dozorového úřadu.'
+  },
+  contact: {
+    title: 'Kontakt pro ochranu osobních údajů',
+    content: 'V případě jakýchkoliv dotazů ohledně zpracování vašich osobních údajů nás můžete kontaktovat:',
+    address: 'Adresa'
+  },
+    },
+  terms: {
+  title: 'Obchodní podmínky',
+  subtitle: 'Všeobecné obchodní podmínky společnosti DataHelp',
+  lastUpdated: 'Poslední aktualizace: 1. března 2024',
+  sections: {
+    general: {
+      title: 'Obecná ustanovení',
+      content: 'Tyto všeobecné obchodní podmínky upravují vztahy mezi společností DataHelp s.r.o. a jejími zákazníky při poskytování služeb záchrany dat.'
+    },
+    services: {
+      title: 'Poskytované služby',
+      content: 'Společnost poskytuje služby záchrany dat z poškozených datových nosičů. Součástí služeb je diagnostika, záchrana dat a jejich bezpečné předání zákazníkovi.'
+    },
+    pricing: {
+      title: 'Ceny a platby',
+      content: 'Ceny služeb se řídí aktuálním ceníkem. Zákazník platí pouze za úspěšnou záchranu dat. Diagnostika je zdarma.'
+    },
+    warranty: {
+      title: 'Záruky',
+      content: 'Společnost garantuje maximální úsilí při záchraně dat. Neručíme za data, která není možné zachránit z důvodu jejich fyzického poškození.'
+    },
+    confidentiality: {
+      title: 'Důvěrnost',
+      content: 'Zavazujeme se k absolutní mlčenlivosti o všech datech a informacích získaných při poskytování služeb.'
+    },
+    complaints: {
+      title: 'Reklamace',
+      content: 'Případné reklamace služeb řešíme individuálně s maximální snahou o spokojenost zákazníka. Reklamaci lze uplatnit do 30 dnů.'
+    }
   }
+},
+  cookies: {
+  title: 'Zásady používání cookies',
+  subtitle: 'Informace o používání cookies na našich stránkách',
+  lastUpdated: 'Poslední aktualizace: 1. března 2024',
+  sections: {
+    what: {
+      title: 'Co jsou cookies',
+      content: 'Cookies jsou malé textové soubory, které se ukládají do vašeho prohlížeče při návštěvě našich stránek. Pomáhají nám zajistit základní funkčnost webu, analyzovat návštěvnost a přizpůsobit obsah vašim potřebám.'
+    },
+    types: {
+      title: 'Typy cookies',
+      necessary: {
+        title: 'Nezbytné cookies',
+        content: 'Tyto cookies jsou nutné pro správné fungování webu. Nelze je vypnout.'
+      },
+      analytical: {
+        title: 'Analytické cookies',
+        content: 'Pomáhají nám pochopit, jak návštěvníci používají web. Všechna data jsou anonymizována.'
+      },
+      functional: {
+        title: 'Funkční cookies',
+        content: 'Umožňují lepší funkčnost a personalizaci webu.'
+      }
+    },
+    usage: {
+      title: 'Jak používáme cookies',
+      content: 'Cookies používáme pro:',
+      purposes: [
+        'Zajištění základní funkčnosti webu',
+        'Analýzu návštěvnosti a chování uživatelů',
+        'Zlepšování našich služeb',
+        'Zapamatování vašich preferencí'
+      ]
+    },
+    control: {
+      title: 'Správa cookies',
+      content: 'Cookies můžete spravovat nebo zakázat v nastavení vašeho prohlížeče. Vypnutí některých cookies však může omezit funkčnost našeho webu.'
+    },
+    consent: {
+      title: 'Váš souhlas',
+      content: 'Používáním našeho webu souhlasíte s používáním cookies v souladu s těmito zásadami.'
+    }
+  }
+}
 };
