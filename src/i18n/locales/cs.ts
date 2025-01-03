@@ -93,11 +93,11 @@ export const cs = {
       desc: 'Obnova dat ze všech typů RAID polí a NAS serverů.',
       features: {
         hardware: 'Hardwarové RAID',
-        hardwareDesc: 'Obnova dat z hardwarových RAID řadičů všech výrobců',
+        hardwareDesc: 'Obnova dat při selhání nadkritického množství disků',
         software: 'Softwarové RAID',
-        softwareDesc: 'Rekonstrukce softwarových RAID polí a virtuálních disků',
+        softwareDesc: 'Rekonstrukce RAID při ztrátě konfigurace',
         virtual: 'Virtuální systémy',
-        virtualDesc: 'Obnova dat z virtuálních strojů a úložišť'
+        virtualDesc: 'Obnova dat při poškození virtuálních strojů'
       },
       supported: {
         title: 'Podporované systémy',
@@ -200,10 +200,10 @@ export const cs = {
       price: 'Individuální\nkalkulace',
       noSuccess: 'Cena dle rozsahu poškození',
       features: {
-        diagnosis: 'Komplexní analýza systému',
-        recovery: 'RAID rekonstrukce',
-        warranty: 'Garantovaná důvěrnost',
-        support: 'Podpora 24/7'
+        diagnosis: 'Komplexní analýza',
+        recovery: 'Rekonstrukce RAID i bez původního serveru',
+        warranty: 'Podpora všech souborových systémů',
+        support: 'Možnost expresního řešení 24/7'
       }
     },
     business: {
@@ -228,11 +228,11 @@ export const cs = {
       q2: 'Nabízíte garanci "Bez dat, bez platby"?',
       a2: 'Ano, pokud se nám nepodaří vaše data obnovit, neplatíte za službu obnovy.',
       q3: 'Jak dlouho trvá proces obnovy?',
-      a3: 'Standardní obnova trvá 2-5 pracovních dnů. Pro urgentní případy je k dispozici expresní služba.',
+      a3: 'Standardní obnova trvá 5-10 pracovních dnů. Pro urgentní případy je k dispozici expresní služba.',
       q4: 'Jaké platební metody přijímáte?',
       a4: 'Přijímáme všechny hlavní platební karty, bankovní převody a firemní objednávky.',
       q5: 'Kdo jste a proč vám můžeme věřit?',
-      a5: 'Jsme evropská společnost s více než 20 lety zkušeností v oboru záchrany dat. Máme vlastní specializovanou laboratoř v Praze a certifikované techniky. Jsme držiteli ISO certifikací pro bezpečnost dat.',
+      a5: 'Jsme evropská společnost s více než 20 lety zkušeností v oboru záchrany dat. Máme vlastní specializovanou laboratoř v Praze a certifikované techniky.',
       
       q6: 'Kam posíláte disky k opravě?',
       a6: 'Nikam. Veškeré opravy a záchranu dat provádíme výhradně v naší vlastní laboratoři v Praze. Data nikdy neopouští naše zabezpečené prostory.',
@@ -241,7 +241,7 @@ export const cs = {
       a7: 'Pracujeme v zabezpečené laboratoři s kontrolovaným přístupem. Všechna data jsou šifrována a po úspěšné záchraně bezpečně smazána. Dodržujeme přísné bezpečnostní protokoly a jsme vázáni mlčenlivostí.',
       
       q8: 'Co když jsou data citlivá?',
-      a8: 'Jsme zvyklí pracovat s citlivými daty. Můžeme podepsat NDA a poskytnout nadstandardní bezpečnostní opatření. Pro firemní klienty nabízíme možnost osobní přítomnosti při práci s daty.',
+      a8: 'Jsme zvyklí pracovat s citlivými daty. Můžeme podepsat NDA a poskytnout nadstandardní bezpečnostní opatření.',
       
       q9: 'Jaké jsou vaše úspěšnosti?',
       a9: 'Naše úspěšnost záchrany dat přesahuje 95%. Díky vlastní laboratoři a špičkovému vybavení dokážeme řešit i velmi složité případy.',
