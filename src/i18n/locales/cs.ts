@@ -270,7 +270,7 @@ export const cs = {
       emergency: '24/7 Pohotovostní služba pro firemní klienty'
     },
     partners: {
-      title: 'Nebo kontaktujte naše lokální partnery',
+      title: 'Nebo kontaktujte naše partnery',
       description: 'Máme síť certifikovaných partnerů po celé České republice'
     }
   },
@@ -278,8 +278,8 @@ export const cs = {
     title: 'Naše technologie',
     subtitle: 'Špičkové vybavení pro profesionální záchranu dat',
     cleanRoom: {
-      title: 'Čistá místnost',
-      description: 'ISO certifikovaná čistá místnost třídy 100 pro bezpečnou manipulaci s citlivými komponenty'
+      title: 'Bezprašné prostředí',
+      description: 'Všechny pracoviště jsou vybaveny laboratorními boxy třídy 100 pro bezpečnou manipulaci s citlivými komponenty'
     },
     tools: {
       title: 'Specializované nástroje',
