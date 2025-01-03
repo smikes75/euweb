@@ -8,7 +8,7 @@ export const cs = {
   },
   hero: {
     title: 'Profesionální obnova dat\npro firmy i jednotlivce',
-    subtitle: 'Specializujeme se na záchranu dat z poškozených médií s více než 20 lety zkušeností.',
+    subtitle: 'Specializujeme se na záchranu dat z poškozených médií již více než 20 let.',
     consultation: 'Bezplatná konzultace',
     ourServices: 'Naše služby',
     security: 'Bezpečnost dat',
@@ -16,7 +16,7 @@ export const cs = {
     technology: 'Moderní technologie',
     technologyDesc: 'Špičkové vybavení',
     experience: '20 let zkušeností',
-    experienceDesc: '50k+ vyřešených případů'
+    experienceDesc: 'Více jak 55.000 vyřešených zakázek'
   },
   about: {
     title: 'O nás',
@@ -174,16 +174,16 @@ export const cs = {
       title: 'Záchrana HDD',
       description: 'Mechanicky poškozené nebo nefunkční pevné disky',
       price: 'Od 350 €\nMax 1.200 €',
-      noSuccess: 'Bez obnovy = Bez poplatku',
+      noSuccess: 'Data nelze obnovit = záchranu neplatíte',
       features: {
         diagnosis: 'Bezplatná vstupní diagnostika',
-        recovery: 'Obnova dat z disků všech značek',
+        recovery: 'Podpora všech výrobců',
         warranty: 'Rozsáhlý sklad dílů',
         support: 'Možnost Expresního zpracování'
       }
     },
     ssd: {
-      title: 'Záchrana SSD, Flash',
+      title: 'Záchrana SSD',
       description: 'SSD disky, USB flash paměti a memory karty ',
       price: 'Od 250 €\nMax 1.400 €',
       noSuccess: 'Data nelze obnovit = záchranu neplatíte',
@@ -337,7 +337,7 @@ export const cs = {
   },
   process: {
     title: 'Proces záchrany dat',
-    guarantee: 'Bez obnovy = Bez poplatku',
+    guarantee: 'Data nelze obnovit = záchranu neplatíte',
     reception: {
       title: 'Příjem média',
       desc: 'Bezpečné převzetí vašeho zařízení'
