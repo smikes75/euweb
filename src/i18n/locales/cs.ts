@@ -20,11 +20,11 @@ export const cs = {
   },
   about: {
     title: 'O nás',
-    subtitle: 'Váš důvěryhodný partner v obnově dat',
+    subtitle: 'Jsme Váš důvěryhodný partner pro záchranu dat',
     description: 'S více než 20 lety zkušeností v oblasti obnovy dat jsme pomohli tisícům klientů obnovit jejich cenná data. Náš tým expertů využívá nejmodernější technologie a dodržuje přísné bezpečnostní protokoly pro zajištění nejvyšší úspěšnosti v oboru.',
     experience: {
       title: 'Roky zkušeností',
-      description: '15+ let expertízy v obnově dat'
+      description: 'Více než 20 let se specializujeme na obnovu dat'
     },
     team: {
       title: 'Expertní tým',
@@ -36,26 +36,26 @@ export const cs = {
     },
     security: {
       title: 'Bezpečnost dat',
-      description: 'ISO certifikovaná čistá místnost a zabezpečené prostory'
+      description: 'Garantujeme maximální bezpečnost během celého procesu obnovy'
     },
     mission: {
       title: 'Naše mise',
-      description: 'Poskytovat nejspolehlivější a nejprofesionálnější služby obnovy dat při zajištění maximální bezpečnosti a důvěrnosti pro naše klienty.'
+      description: 'Poskytovat špičkové profesionální služby obnovy a záchrany dat.'
     }
   },
   services: {
     title: 'Naše služby',
-    subtitle: 'Komplexní řešení obnovy dat',
+    subtitle: 'Komplexní řešení pro obnovu a záchranu dat',
     hdd: {
       title: 'Záchrana HDD',
       desc: 'Obnova dat z mechanicky poškozených nebo nefunkčních pevných disků všech výrobců.',
       features: {
         mechanical: 'Mechanické poškození',
-        mechanicalDesc: 'Oprava poškozených hlav, výměna ploten, oprava elektroniky',
+        mechanicalDesc: 'Závady čtecích hlav, poškození ploten, selhání servisních dat',
         electronic: 'Elektronické závady',
-        electronicDesc: 'Diagnostika a oprava elektronických komponent, výměna PCB',
+        electronicDesc: 'Zničené PCB, poškození přepětím, selhání firmware',
         logical: 'Logické poškození',
-        logicalDesc: 'Obnova smazaných dat, oprava souborových systémů, obnova RAID'
+        logicalDesc: 'Obnova smazaných dat, oprava souborových systémů'
       },
       supported: {
         title: 'Podporované technologie',
@@ -72,15 +72,16 @@ export const cs = {
       desc: 'Specializovaná obnova dat z flash pamětí a SSD disků.',
       features: {
         controller: 'Poruchy řadiče',
-        controllerDesc: 'Oprava nebo výměna poškozených řadičů',
-        firmware: 'Opravy firmwaru',
-        firmwareDesc: 'Aktualizace a oprava poškozeného firmwaru',
+        controllerDesc: 'Obnova dat v případě poškozeného řadiče',
+        firmware: 'Rekonstrukce firmwaru',
+        firmwareDesc: 'Záchrana dat v případě selhání firmwaru',
         flash: 'Poškození flash čipů',
         flashDesc: 'Obnova dat z poškozených paměťových čipů'
       },
       supported: {
         title: 'Podporovaná zařízení',
         devices: 'Typy zařízení',
+        manufacturers: 'Výrobci',
         sata: 'SATA SSD',
         nvme: 'NVMe SSD',
         usb: 'USB Flash disky',
@@ -171,32 +172,32 @@ export const cs = {
     getQuote: 'Nezávazná konzultace',
     hdd: {
       title: 'Záchrana HDD',
-      description: 'Pro mechanicky poškozené nebo nefunkční pevné disky',
-      price: 'Od 8 500 Kč\nMax 29 000 Kč',
+      description: 'Mechanicky poškozené nebo nefunkční pevné disky',
+      price: 'Od 350 €\nMax 1.200 €',
       noSuccess: 'Bez obnovy = Bez poplatku',
       features: {
         diagnosis: 'Bezplatná vstupní diagnostika',
-        recovery: 'Profesionální obnova dat',
-        warranty: 'Záruka mlčenlivosti',
-        support: 'Expresní zpracování'
+        recovery: 'Obnova dat z disků všech značek',
+        warranty: 'Rozsáhlý sklad dílů',
+        support: 'Možnost Expresního zpracování'
       }
     },
     ssd: {
-      title: 'Záchrana SSD/Flash',
-      description: 'Pro SSD disky a flash paměti',
-      price: 'Od 6 000 Kč\nMax 35 000 Kč',
-      noSuccess: 'Bez obnovy = Bez poplatku',
+      title: 'Záchrana SSD, Flash',
+      description: 'SSD disky, USB flash paměti a memory karty ',
+      price: 'Od 250 €\nMax 1.400 €',
+      noSuccess: 'Data nelze obnovit = záchranu neplatíte',
       features: {
-        diagnosis: 'Pokročilá diagnostika',
-        recovery: 'Specializované nástroje',
-        warranty: '90 dní záruka',
-        support: 'Profesionální přístup'
+        diagnosis: 'Bezplatná vstupní diagnostik',
+        recovery: 'Podpora všech flash technologií',
+        warranty: 'Více než 20 let zkušeností',
+        support: 'Tým školených techniků'
       }
     },
     raid: {
-      title: 'RAID Systémy',
-      description: 'Pro RAID pole a serverové systémy',
-      price: 'Individuální kalkulace',
+      title: 'RAID, NAS Systémy',
+      description: 'Pro RAID, NAS a serverové systémy',
+      price: 'Individuální\nkalkulace',
       noSuccess: 'Cena dle rozsahu poškození',
       features: {
         diagnosis: 'Komplexní analýza systému',
@@ -206,15 +207,15 @@ export const cs = {
       }
     },
     business: {
-      title: 'IT Service spolupráce',
+      title: 'Možnost spolupráce',
       description: 'Hledáme partnery pro spolupráci',
-      price: 'Individuální nabídka',
+      price: 'Partnerský\nprogram',
       noSuccess: 'Dle specifických požadavků',
       features: {
         priority: 'Prioritní zpracování',
         sla: 'Individuální SLA',
         support: 'Dedikovaný specialista',
-        onsite: 'Servis na místě'
+        onsite: 'Individuální ceny'
       }
     }
   },

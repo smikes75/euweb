@@ -92,19 +92,19 @@ export function HDDRecoveryPage() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Western Digital</span>
+                  <span>Western Digital, Seagate</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Seagate</span>
+                  <span>Toshiba, Samsung</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Toshiba</span>
+                  <span>Hitachi, Fujitsu</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Hitachi / HGST</span>
+                  <span>Maxtor, IBM, Quantum </span>
                 </li>
               </ul>
             </div>

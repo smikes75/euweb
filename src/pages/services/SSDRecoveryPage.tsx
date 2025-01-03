@@ -91,19 +91,19 @@ export function SSDRecoveryPage() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Samsung</span>
+                  <span>Samsung, Western Digital, SanDisk</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Western Digital</span>
+                  <span>Crucial, Micron, SK Hynix, Intel </span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Crucial / Micron</span>
+                  <span>Seagate, Kingston, Corsair</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Kingston</span>
+                  <span>ADATA, Transcend, Patriot</span>
                 </li>
               </ul>
             </div>

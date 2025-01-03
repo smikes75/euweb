@@ -14,13 +14,13 @@ export function ContactPage() {
       phone: '+420 123 456 789',
       email: 'praha@datahelp.eu'
     },
-    {
-      country: 'Deutschland',
-      city: 'Berlin',
-      address: 'Alexanderplatz 1, 10178 Berlin',
-      phone: '+49 30 1234567',
-      email: 'berlin@datahelp.eu'
-    },
+    //{
+    //  country: 'Deutschland',
+    //  city: 'Berlin',
+    //  address: 'Alexanderplatz 1, 10178 Berlin',
+    //  phone: '+49 30 1234567',
+    //  email: 'berlin@datahelp.eu'
+    //},
     {
       country: 'Österreich',
       city: 'Wien',
@@ -28,13 +28,13 @@ export function ContactPage() {
       phone: '+43 1 2345678',
       email: 'wien@datahelp.eu'
     },
-    {
-      country: 'Polska',
-      city: 'Warszawa',
-      address: 'ul. Marszałkowska 1, 00-001 Warszawa',
-      phone: '+48 22 1234567',
-      email: 'warszawa@datahelp.eu'
-    },
+    //{
+    //  country: 'Polska',
+    //  city: 'Warszawa',
+    //  address: 'ul. Marszałkowska 1, 00-001 Warszawa',
+    //  phone: '+48 22 1234567',
+    //  email: 'warszawa@datahelp.eu'
+    //},
     {
       country: 'Slovensko',
       city: 'Bratislava',
@@ -42,13 +42,13 @@ export function ContactPage() {
       phone: '+421 2 1234567',
       email: 'bratislava@datahelp.eu'
     },
-    {
-      country: 'Hungary',
-      city: 'Budapest',
-      address: 'Andrássy út 1, 1061 Budapest',
-      phone: '+36 1 2345678',
-      email: 'budapest@datahelp.eu'
-    }
+    //{
+    //  country: 'Hungary',
+    //  city: 'Budapest',
+    //  address: 'Andrássy út 1, 1061 Budapest',
+    //  phone: '+36 1 2345678',
+    //  email: 'budapest@datahelp.eu'
+    //}
   ];
 
   return (
