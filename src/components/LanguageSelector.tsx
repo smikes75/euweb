@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next';
 const FLAGS = {
   cs: "🇨🇿",
   de: "🇩🇪",
-  en: "🇬🇧"
+  en: "🇬🇧",
+  it: "🇮🇹" 
 } as const;
 
 type LanguageKey = keyof typeof FLAGS;

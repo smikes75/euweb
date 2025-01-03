@@ -170,9 +170,9 @@ whyChooseUs: 'Warum uns wählen',
     description: 'Wir glauben an Transparenz. Deshalb geben wir als einer der wenigen nicht nur die Mindest-, sondern auch die Höchstpreise unserer Dienstleistungen an. Sie zahlen nur für die erfolgreiche Datenrettung. Datenrettung ist ein hochspezialisierter Prozess, bei dem jeder Fall einen individuellen Ansatz und maximale Aufmerksamkeit unserer Experten erfordert.',
     getQuote: 'Unverbindliche Beratung',
     hdd: {
-      title: 'HDD-Rettung',
+      title: 'HDD Rettung',
       description: 'Für mechanisch beschädigte oder defekte Festplatten',
-      price: 'Ab 8.500 Kč\nMax 29.000 Kč',
+      price: 'Ab 350 EUR\nMax 1400 EUR',
       noSuccess: 'Keine Wiederherstellung = Keine Gebühr',
       features: {
         diagnosis: 'Kostenlose Eingangsdiagnose',
@@ -182,9 +182,9 @@ whyChooseUs: 'Warum uns wählen',
       }
     },
     ssd: {
-      title: 'SSD/Flash-Rettung',
+      title: 'SSD-Flash Rettung',
       description: 'Für SSD-Laufwerke und Flash-Speicher',
-      price: 'Ab 6.000 Kč\nMax 35.000 Kč',
+      price: 'Ab 300 EUR\nMax 1200 EUR',
       noSuccess: 'Keine Wiederherstellung = Keine Gebühr',
       features: {
         diagnosis: 'Erweiterte Diagnose',

@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { en } from './locales/en';
 import { de } from './locales/de';
 import { cs } from './locales/cs';
+import { it } from './locales/it';
 
 i18n
   .use(LanguageDetector)
@@ -12,7 +13,8 @@ i18n
     resources: {
       cs: { translation: cs },
       de: { translation: de },
-      en: { translation: en }
+      en: { translation: en },
+      it: { translation: it }
     },
     fallbackLng: 'en',
     interpolation: {
