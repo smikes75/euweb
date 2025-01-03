@@ -87,15 +87,15 @@ export function RAIDSystemsPage() {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>LSI / Broadcom</span>
+                  <span>LSI, Broadcom, Dell PERC, HP Smart Array</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>Dell PERC</span>
+                  <span>Synology, Qnap, Netgear</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-accent rounded-full"></div>
-                  <span>HP Smart Array</span>
+                  <span>Asustor, Buffalo Technology, TerraMastery</span>
                 </li>
               </ul>
             </div>

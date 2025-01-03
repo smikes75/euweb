@@ -48,7 +48,7 @@ export const cs = {
     subtitle: 'Komplexní řešení pro obnovu a záchranu dat',
     hdd: {
       title: 'Záchrana HDD',
-      desc: 'Obnova dat z mechanicky poškozených nebo nefunkčních pevných disků všech výrobců.',
+      desc: 'Z poškozených nebo nefunkčních disků.',
       features: {
         mechanical: 'Mechanické poškození',
         mechanicalDesc: 'Závady čtecích hlav, poškození ploten, selhání servisních dat',
@@ -89,7 +89,7 @@ export const cs = {
       }
     },
     raid: {
-      title: 'RAID Systémy',
+      title: 'RAID, NAS Systémy',
       desc: 'Obnova dat ze všech typů RAID polí a NAS serverů.',
       features: {
         hardware: 'Hardwarové RAID',
@@ -104,7 +104,7 @@ export const cs = {
         configurations: 'Konfigurace',
         nas: 'NAS systémy',
         san: 'SAN systémy',
-        controllers: 'RAID řadiče'
+        controllers: 'Výrobci'
       },
       security: {
         title: 'Bezpečnost dat',
@@ -188,7 +188,7 @@ export const cs = {
       price: 'Od 250 €\nMax 1.400 €',
       noSuccess: 'Data nelze obnovit = záchranu neplatíte',
       features: {
-        diagnosis: 'Bezplatná vstupní diagnostik',
+        diagnosis: 'Bezplatná vstupní diagnostika',
         recovery: 'Podpora všech flash technologií',
         warranty: 'Více než 20 let zkušeností',
         support: 'Tým školených techniků'
