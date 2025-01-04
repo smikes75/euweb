@@ -1,6 +1,7 @@
 import React from 'react';
 import { Building2, Clock, Shield, Headphones, Handshake } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Contact } from '../../components/Contact';
 
 export function BusinessSolutionsPage() {
   const { t } = useTranslation();
@@ -20,6 +21,19 @@ export function BusinessSolutionsPage() {
       icon: <Headphones className="h-8 w-8 text-accent" />,
       title: t('services.business.features.priority'),
       description: t('services.business.features.priorityDesc')
+    }
+  ];
+
+  const salesTeam = [
+    {
+      name: "Jan Novák",
+      position: "Senior Account Manager",
+      email: "jmeno1@datahelp.eu"
+    },
+    {
+      name: "Petr Svoboda",
+      position: "Business Development Manager",
+      email: "jmeno2@datahelp.eu"
     }
   ];
 
@@ -62,53 +76,29 @@ export function BusinessSolutionsPage() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold mb-6 text-primary">{t('services.business.sla.title')}</h2>
-            <ul className="space-y-4">
-              <li className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                <div>
-                  <h3 className="font-semibold text-primary">{t('services.business.sla.response.title')}</h3>
-                  <p className="text-gray-600">{t('services.business.sla.response.description')}</p>
-                </div>
-              </li>
-              <li className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                <div>
-                  <h3 className="font-semibold text-primary">{t('services.business.sla.onsite.title')}</h3>
-                  <p className="text-gray-600">{t('services.business.sla.onsite.description')}</p>
-                </div>
-              </li>
-              <li className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2"></div>
-                <div>
-                  <h3 className="font-semibold text-primary">{t('services.business.sla.reporting.title')}</h3>
-                  <p className="text-gray-600">{t('services.business.sla.reporting.description')}</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-bold mb-6 text-primary">{t('services.business.industries.title')}</h2>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <h3 className="font-semibold mb-2 text-primary">{t('services.business.industries.finance')}</h3>
-                <p className="text-gray-600">{t('services.business.industries.financeDesc')}</p>
+        <div className="bg-white rounded-lg shadow-lg p-8">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h2 className="text-xl font-bold text-primary mb-8">Pro více informací kontaktujte naše obchodníky:</h2>
+              <div className="space-y-6">
+                {salesTeam.map((member, index) => (
+                  <div key={index} className="border-l-4 border-accent pl-4">
+                    <h3 className="font-semibold text-lg text-primary">{member.name}</h3>
+                    <p className="text-gray-600 mb-2">{member.position}</p>
+                    <a 
+                      href={`mailto:${member.email}`} 
+                      className="text-accent hover:text-accent-dark transition-colors"
+                    >
+                      {member.email}
+                    </a>
+                  </div>
+                ))}
               </div>
-              <div>
-                <h3 className="font-semibold mb-2 text-primary">{t('services.business.industries.healthcare')}</h3>
-                <p className="text-gray-600">{t('services.business.industries.healthcareDesc')}</p>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2 text-primary">{t('services.business.industries.manufacturing')}</h3>
-                <p className="text-gray-600">{t('services.business.industries.manufacturingDesc')}</p>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2 text-primary">{t('services.business.industries.it')}</h3>
-                <p className="text-gray-600">{t('services.business.industries.itDesc')}</p>
-              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-bold text-primary mb-6">Nebo nám zanechte zprávu:</h3>
+              <Contact />
             </div>
           </div>
         </div>

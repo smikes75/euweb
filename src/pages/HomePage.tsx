@@ -4,7 +4,7 @@ import { Services } from '../components/Services';
 import { Gallery } from '../components/Gallery';
 import { ProcessInfographic } from '../components/ProcessInfographic';
 import { ElfsightReviews } from '../components/ElfsightReviews';
-import { Contact } from '../components/Contact';
+import { HomeContact } from '../components/HomeContact';
 
 export function HomePage() {
   return (
@@ -14,7 +14,7 @@ export function HomePage() {
       <Gallery />
       <ProcessInfographic />
       <ElfsightReviews />
-      <Contact />
+      <HomeContact />
     </>
   );
 }

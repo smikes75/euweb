@@ -11,8 +11,8 @@ export const cs = {
     subtitle: 'Specializujeme se na záchranu dat z poškozených médií již více než 20 let.',
     consultation: 'Bezplatná konzultace',
     ourServices: 'Naše služby',
-    security: 'Bezpečnost dat',
-    securityDesc: '100% důvěrnost a ochrana',
+    security: 'Garance bezpečnosti',
+    securityDesc: '100% ochrana dat',
     technology: 'Moderní technologie',
     technologyDesc: 'Špičkové vybavení',
     experience: '20 let zkušeností',
@@ -112,15 +112,15 @@ export const cs = {
       }
     },
     business: {
-      title: 'Firemní řešení',
-      desc: 'Komplexní řešení pro firmy včetně podpory 24/7.',
+      title: 'Partnerský program',
+      desc: 'Nabízíme spolupráci IT firmám a servisům',
       features: {
-        support: 'Podpora 24/7',
-        supportDesc: 'Nepřetržitá technická podpora pro kritické případy',
-        security: 'Maximální bezpečnost',
-        securityDesc: 'Šifrovaný přenos a zpracování dat v zabezpečeném prostředí',
+        support: 'Technická podpora',
+        supportDesc: 'Obchodní a technická podpora, možnost zaškolení',
+        security: 'Individuální ceník',
+        securityDesc: 'Získejte lepší ceny a splatnost faktur',
         priority: 'Prioritní zpracování',
-        priorityDesc: 'Přednostní zpracování požadavků firemních klientů'
+        priorityDesc: 'Přednostní zpracování požadavků našich partnerů'
       },
       sla: {
         title: 'SLA podmínky',
@@ -214,7 +214,7 @@ export const cs = {
       features: {
         priority: 'Prioritní zpracování',
         sla: 'Individuální SLA',
-        support: 'Dedikovaný specialista',
+        support: 'Odborná podpora',
         onsite: 'Individuální ceny'
       }
     }
@@ -255,6 +255,7 @@ export const cs = {
     subtitle: 'Jsme tu pro vás 24/7',
     form: {
       title: 'Napište nám',
+      leaveMessage: 'Zanechte nám zprávu',
       name: 'Jméno a příjmení',
       email: 'E-mail',
       phone: 'Telefon',
