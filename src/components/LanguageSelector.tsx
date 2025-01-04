@@ -5,7 +5,7 @@ const FLAGS = {
   cs: "🇨🇿",
   de: "🇩🇪",
   en: "🇬🇧",
-  it: "🇮🇹" 
+  //it: "🇮🇹" 
 } as const;
 
 type LanguageKey = keyof typeof FLAGS;

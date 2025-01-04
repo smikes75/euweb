@@ -54,7 +54,7 @@ export const cs = {
         mechanicalDesc: 'Závady čtecích hlav, poškození ploten, selhání servisních dat',
         electronic: 'Elektronické závady',
         electronicDesc: 'Zničené PCB, poškození přepětím, selhání firmware',
-        logical: 'Logické poškození',
+        logical: 'Selhání souborového systému',
         logicalDesc: 'Obnova smazaných dat, oprava souborových systémů'
       },
       supported: {
@@ -114,6 +114,10 @@ export const cs = {
     business: {
       title: 'Partnerský program',
       desc: 'Nabízíme spolupráci IT firmám a servisům',
+      contact: {
+        salesTeam: 'Pro více informací kontaktujte naše obchodníky:',
+        leaveMessage: 'Nebo nám zanechte zprávu:'
+      },
       features: {
         support: 'Technická podpora',
         supportDesc: 'Obchodní a technická podpora, možnost zaškolení',

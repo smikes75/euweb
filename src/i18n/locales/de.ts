@@ -8,27 +8,27 @@ export const de = {
   },
   hero: {
     title: 'Professionelle Datenrettung\nfür Unternehmen und Privatpersonen',
-    subtitle: 'Wir sind spezialisiert auf die Rettung von Daten von beschädigten Medien mit über 20 Jahren Erfahrung.',
+    subtitle: 'Wir sind seit über 20 Jahren auf die Rettung von Daten aus beschädigten Medien spezialisiert.',
     consultation: 'Kostenlose Beratung',
     ourServices: 'Unsere Dienstleistungen',
-    security: 'Datensicherheit',
-    securityDesc: '100% Vertraulichkeit und Schutz',
+    security: 'Sicherheitsgarantie',
+    securityDesc: '100% Datenschutz',
     technology: 'Moderne Technologie',
     technologyDesc: 'Hochmoderne Ausstattung',
     experience: '20 Jahre Erfahrung',
-    experienceDesc: '50k+ gelöste Fälle'
+    experienceDesc: 'Über 55.000 gelöste Aufträge'
   },
   about: {
     title: 'Über uns',
-    subtitle: 'Ihr vertrauenswürdiger Partner in der Datenrettung',
-    description: 'Mit über 20 Jahren Erfahrung in der Datenrettung haben wir tausenden Kunden geholfen, ihre wertvollen Daten wiederherzustellen. Unser Expertenteam nutzt modernste Technologien und befolgt strenge Sicherheitsprotokolle, um die höchste Erfolgsrate in der Branche zu gewährleisten.',
+    subtitle: 'Wir sind Ihr vertrauenswürdiger Partner für Datenrettung',
+    description: 'Mit über 20 Jahren Erfahrung in der Datenrettung haben wir Tausenden von Kunden geholfen, ihre wertvollen Daten wiederherzustellen. Unser Expertenteam nutzt modernste Technologien und befolgt strenge Sicherheitsprotokolle, um die höchste Erfolgsrate in der Branche zu gewährleisten.',
     experience: {
       title: 'Jahre Erfahrung',
-      description: '15+ Jahre Expertise in der Datenrettung'
+      description: 'Über 20 Jahre Spezialisierung auf Datenrettung'
     },
     team: {
       title: 'Expertenteam',
-      description: 'Zertifizierte Fachkräfte mit umfassendem Wissen'
+      description: 'Zertifizierte Fachleute mit umfassendem Wissen'
     },
     availability: {
       title: '24/7 Service',
@@ -36,26 +36,26 @@ export const de = {
     },
     security: {
       title: 'Datensicherheit',
-      description: 'ISO-zertifizierter Reinraum und gesicherte Bereiche'
+      description: 'Maximale Sicherheit während des gesamten Wiederherstellungsprozesses garantiert'
     },
     mission: {
       title: 'Unsere Mission',
-      description: 'Die zuverlässigsten und professionellsten Datenrettungsdienste mit maximaler Sicherheit und Vertraulichkeit für unsere Kunden bereitzustellen.'
+      description: 'Erstklassige professionelle Datenrettungs- und Wiederherstellungsdienste anbieten.'
     }
   },
   services: {
     title: 'Unsere Dienstleistungen',
-    subtitle: 'Umfassende Datenrettungslösungen',
+    subtitle: 'Umfassende Lösungen für Datenrettung und -wiederherstellung',
     hdd: {
-      title: 'HDD-Rettung',
-      desc: 'Datenrettung von mechanisch beschädigten oder defekten Festplatten aller Hersteller.',
+      title: 'Festplattenrettung',
+      desc: 'Von beschädigten oder defekten Festplatten.',
       features: {
         mechanical: 'Mechanische Schäden',
-        mechanicalDesc: 'Reparatur beschädigter Köpfe, Plattentausch, Elektronik-Reparatur',
+        mechanicalDesc: 'Defekte Leseköpfe, beschädigte Platten, Service-Daten-Ausfall',
         electronic: 'Elektronische Defekte',
-        electronicDesc: 'Diagnose und Reparatur elektronischer Komponenten, PCB-Austausch',
-        logical: 'Logische Schäden',
-        logicalDesc: 'Wiederherstellung gelöschter Daten, Reparatur von Dateisystemen, RAID-Wiederherstellung'
+        electronicDesc: 'Zerstörte PCB, Überspannungsschäden, Firmware-Ausfälle',
+        logical: 'Dateisystemfehler',
+        logicalDesc: 'Wiederherstellung gelöschter Daten, Reparatur von Dateisystemen'
       },
       supported: {
         title: 'Unterstützte Technologien',
@@ -69,18 +69,19 @@ export const de = {
     },
     ssd: {
       title: 'SSD-Rettung',
-      desc: 'Spezialisierte Datenrettung von Flash-Speichern und SSD-Laufwerken.',
+      desc: 'Spezialisierte Datenrettung von Flash-Speichern und SSDs.',
       features: {
         controller: 'Controller-Defekte',
-        controllerDesc: 'Reparatur oder Austausch beschädigter Controller',
-        firmware: 'Firmware-Reparaturen',
-        firmwareDesc: 'Aktualisierung und Reparatur beschädigter Firmware',
+        controllerDesc: 'Datenrettung bei defektem Controller',
+        firmware: 'Firmware-Rekonstruktion',
+        firmwareDesc: 'Datenrettung bei Firmware-Ausfällen',
         flash: 'Flash-Chip-Schäden',
         flashDesc: 'Datenrettung von beschädigten Speicherchips'
       },
       supported: {
         title: 'Unterstützte Geräte',
         devices: 'Gerätetypen',
+        manufacturers: 'Hersteller',
         sata: 'SATA SSD',
         nvme: 'NVMe SSD',
         usb: 'USB-Sticks',
@@ -88,22 +89,22 @@ export const de = {
       }
     },
     raid: {
-      title: 'RAID-Systeme',
-      desc: 'Datenrettung von allen RAID-Array-Typen und NAS-Servern.',
+      title: 'RAID, NAS-Systeme',
+      desc: 'Datenrettung von allen RAID-Arrays und NAS-Servern.',
       features: {
         hardware: 'Hardware-RAID',
-        hardwareDesc: 'Datenrettung von Hardware-RAID-Controllern aller Hersteller',
+        hardwareDesc: 'Datenrettung bei Ausfall einer überkritischen Anzahl von Festplatten',
         software: 'Software-RAID',
-        softwareDesc: 'Rekonstruktion von Software-RAID-Arrays und virtuellen Laufwerken',
+        softwareDesc: 'RAID-Rekonstruktion bei Konfigurationsverlust',
         virtual: 'Virtuelle Systeme',
-        virtualDesc: 'Datenrettung von virtuellen Maschinen und Speichern'
+        virtualDesc: 'Datenrettung bei beschädigten virtuellen Maschinen'
       },
       supported: {
         title: 'Unterstützte Systeme',
         configurations: 'Konfigurationen',
         nas: 'NAS-Systeme',
         san: 'SAN-Systeme',
-        controllers: 'RAID-Controller'
+        controllers: 'Hersteller'
       },
       security: {
         title: 'Datensicherheit',
@@ -111,15 +112,19 @@ export const de = {
       }
     },
     business: {
-      title: 'Businesslösungen',
-      desc: 'Umfassende Lösungen für Unternehmen einschließlich 24/7 Support.',
+      title: 'Partnerprogramm',
+      desc: 'Wir bieten Zusammenarbeit für IT-Firmen und Serviceanbieter',
+      contact: {
+        salesTeam: 'Für weitere Informationen kontaktieren Sie unser Vertriebsteam:',
+        leaveMessage: 'Oder hinterlassen Sie uns eine Nachricht:'
+      },
       features: {
-        support: '24/7 Support',
-        supportDesc: 'Durchgehender technischer Support für kritische Fälle',
-        security: 'Maximale Sicherheit',
-        securityDesc: 'Verschlüsselte Übertragung und Verarbeitung von Daten in gesicherter Umgebung',
+        support: 'Technischer Support',
+        supportDesc: 'Geschäfts- und technischer Support, Schulungsmöglichkeiten',
+        security: 'Individuelle Preisgestaltung',
+        securityDesc: 'Erhalten Sie bessere Preise und Zahlungsbedingungen',
         priority: 'Vorrangige Bearbeitung',
-        priorityDesc: 'Bevorzugte Bearbeitung von Unternehmensanfragen'
+        priorityDesc: 'Bevorzugte Bearbeitung der Anfragen unserer Partner'
       },
       sla: {
         title: 'SLA-Bedingungen',
@@ -148,105 +153,100 @@ export const de = {
         itDesc: 'IT-Unternehmen und Dienstleister'
       }
     },
-whyChooseUs: 'Warum uns wählen',
+    whyChooseUs: 'Warum uns wählen',
     benefits: {
       security: 'Sicherheit',
       securityDesc: 'Maximaler Schutz Ihrer Daten',
       expertise: 'Erfahrung',
       expertiseDesc: 'Professionelles Expertenteam',
-      speed: 'Schnelligkeit',
+      speed: 'Geschwindigkeit',
       speedDesc: 'Effiziente Problemlösung'
     }
   },
-  reviews: {
+reviews: {
     title: 'Bewertungen',
-    review1: 'Professioneller Ansatz und schnelle Lösung. Kritische Daten von unseren Servern wiederhergestellt.',
-    review2: 'Hervorragende Kommunikation und perfekte Ergebnisse. Empfehlenswert für alle Unternehmen.',
-    review3: 'Unsere Datenbank nach einem Ransomware-Angriff wiederhergestellt. Großartige Arbeit!'
+    review1: 'Professioneller Ansatz und schnelle Lösung. Sie haben kritische Daten von unseren Servern wiederhergestellt.',
+    review2: 'Ausgezeichnete Kommunikation und perfekte Ergebnisse. Empfehlenswert für alle Unternehmen.',
+    review3: 'Sie haben unsere Datenbank nach einem Ransomware-Angriff wiederhergestellt. Großartige Arbeit!'
   },
   pricing: {
     title: 'Preise',
     subtitle: 'Faire Preise ohne versteckte Gebühren',
-    description: 'Wir glauben an Transparenz. Deshalb geben wir als einer der wenigen nicht nur die Mindest-, sondern auch die Höchstpreise unserer Dienstleistungen an. Sie zahlen nur für die erfolgreiche Datenrettung. Datenrettung ist ein hochspezialisierter Prozess, bei dem jeder Fall einen individuellen Ansatz und maximale Aufmerksamkeit unserer Experten erfordert.',
+    description: 'Wir glauben an Transparenz. Deshalb geben wir als einer der wenigen nicht nur die minimalen, sondern auch die maximalen Preise unserer Dienstleistungen an. Sie zahlen nur für erfolgreiche Datenrettung. Datenrettung ist ein hochspezialisierter Prozess, bei dem jeder Fall einen individuellen Ansatz und maximale Aufmerksamkeit unserer Experten erfordert.',
     getQuote: 'Unverbindliche Beratung',
     hdd: {
-      title: 'HDD Rettung',
-      description: 'Für mechanisch beschädigte oder defekte Festplatten',
-      price: 'Ab 350 EUR\nMax 1400 EUR',
-      noSuccess: 'Keine Wiederherstellung = Keine Gebühr',
+      title: 'Festplattenrettung',
+      description: 'Mechanisch beschädigte oder defekte Festplatten',
+      price: 'Ab 350 €\nMax 1.200 €',
+      noSuccess: 'Keine Datenrettung möglich = keine Kosten',
       features: {
         diagnosis: 'Kostenlose Eingangsdiagnose',
-        recovery: 'Professionelle Datenwiederherstellung',
-        warranty: 'Vertraulichkeitsgarantie',
-        support: 'Express-Bearbeitung'
+        recovery: 'Unterstützung aller Hersteller',
+        warranty: 'Umfangreiches Ersatzteillager',
+        support: 'Express-Bearbeitung möglich'
       }
     },
     ssd: {
-      title: 'SSD-Flash Rettung',
-      description: 'Für SSD-Laufwerke und Flash-Speicher',
-      price: 'Ab 300 EUR\nMax 1200 EUR',
-      noSuccess: 'Keine Wiederherstellung = Keine Gebühr',
+      title: 'SSD-Rettung',
+      description: 'SSD-Laufwerke, USB-Sticks und Speicherkarten',
+      price: 'Ab 250 €\nMax 1.400 €',
+      noSuccess: 'Keine Datenrettung möglich = keine Kosten',
       features: {
-        diagnosis: 'Erweiterte Diagnose',
-        recovery: 'Spezialisierte Tools',
-        warranty: '90 Tage Garantie',
-        support: 'Professioneller Service'
+        diagnosis: 'Kostenlose Eingangsdiagnose',
+        recovery: 'Unterstützung aller Flash-Technologien',
+        warranty: 'Über 20 Jahre Erfahrung',
+        support: 'Team geschulter Techniker'
       }
     },
     raid: {
-      title: 'RAID-Systeme',
-      description: 'Für RAID-Arrays und Serversysteme',
-      price: 'Individuelle Kalkulation',
-      noSuccess: 'Preis nach Schadensumfang',
+      title: 'RAID, NAS-Systeme',
+      description: 'Für RAID, NAS und Serversysteme',
+      price: 'Individuelle\nKalkulation',
+      noSuccess: 'Preis abhängig vom Schadensumfang',
       features: {
-        diagnosis: 'Umfassende Systemanalyse',
-        recovery: 'RAID-Rekonstruktion',
-        warranty: 'Garantierte Vertraulichkeit',
-        support: '24/7 Support'
+        diagnosis: 'Umfassende Analyse',
+        recovery: 'RAID-Rekonstruktion auch ohne Original-Server',
+        warranty: 'Unterstützung aller Dateisysteme',
+        support: '24/7 Express-Lösung möglich'
       }
     },
     business: {
-      title: 'IT-Service Kooperation',
+      title: 'Partnerschaft',
       description: 'Wir suchen Kooperationspartner',
-      price: 'Individuelles Angebot',
+      price: 'Partner-\nprogramm',
       noSuccess: 'Nach spezifischen Anforderungen',
       features: {
-        priority: 'Prioritätsbearbeitung',
-        sla: 'Individuelles SLA',
-        support: 'Dedizierter Spezialist',
-        onsite: 'Vor-Ort-Service'
+        priority: 'Vorrangige Bearbeitung',
+        sla: 'Individuelle SLA',
+        support: 'Fachkundige Unterstützung',
+        onsite: 'Individuelle Preise'
       }
     }
   },
-faq: {
+  faq: {
     title: 'Häufige Fragen',
     subtitle: 'Antworten auf die häufigsten Fragen zur Datenrettung',
     questions: {
       q1: 'Wie wird der Endpreis berechnet?',
       a1: 'Der Endpreis hängt von der Art und dem Umfang des Schadens, den benötigten Ersatzteilen und der Komplexität der Wiederherstellung ab.',
-      q2: 'Bieten Sie eine "Keine Daten, keine Zahlung"-Garantie?',
-      a2: 'Ja, wenn wir Ihre Daten nicht wiederherstellen können, zahlen Sie nichts für den Wiederherstellungsservice.',
+      q2: 'Bieten Sie eine "Keine Daten, keine Kosten"-Garantie?',
+      a2: 'Ja, wenn wir Ihre Daten nicht wiederherstellen können, zahlen Sie nichts für den Rettungsversuch.',
       q3: 'Wie lange dauert der Wiederherstellungsprozess?',
-      a3: 'Die Standardwiederherstellung dauert 2-5 Werktage. Für dringende Fälle steht ein Express-Service zur Verfügung.',
+      a3: 'Die Standardwiederherstellung dauert 5-10 Werktage. Für dringende Fälle steht ein Express-Service zur Verfügung.',
       q4: 'Welche Zahlungsmethoden akzeptieren Sie?',
       a4: 'Wir akzeptieren alle gängigen Kreditkarten, Banküberweisungen und Firmenbestellungen.',
       q5: 'Wer sind Sie und warum können wir Ihnen vertrauen?',
-      a5: 'Wir sind ein europäisches Unternehmen mit über 20 Jahren Erfahrung in der Datenrettung. Wir haben ein eigenes Speziallabor in Prag und zertifizierte Techniker. Wir sind ISO-zertifiziert für Datensicherheit.',
-      
+      a5: 'Wir sind ein europäisches Unternehmen mit über 20 Jahren Erfahrung in der Datenrettung. Wir haben ein eigenes Speziallabor in Prag und zertifizierte Techniker.',
       q6: 'Wohin schicken Sie die Festplatten zur Reparatur?',
-      a6: 'Nirgendwohin. Alle Reparaturen und Datenrettungen werden ausschließlich in unserem eigenen Labor in Prag durchgeführt. Die Daten verlassen nie unsere gesicherten Räumlichkeiten.',
-      
+      a6: 'Nirgendwohin. Alle Reparaturen und Datenrettungen führen wir ausschließlich in unserem eigenen Labor in Prag durch. Die Daten verlassen niemals unsere gesicherten Räumlichkeiten.',
       q7: 'Wie wird die Datensicherheit gewährleistet?',
-      a7: 'Wir arbeiten in einem gesicherten Labor mit Zugangskontrolle. Alle Daten werden verschlüsselt und nach erfolgreicher Rettung sicher gelöscht. Wir befolgen strenge Sicherheitsprotokolle und sind zur Verschwiegenheit verpflichtet.',
-      
-      q8: 'Was ist mit sensiblen Daten?',
-      a8: 'Wir sind es gewohnt, mit sensiblen Daten zu arbeiten. Wir können eine NDA unterzeichnen und zusätzliche Sicherheitsmaßnahmen bereitstellen. Für Firmenkunden bieten wir die Möglichkeit der persönlichen Anwesenheit während der Arbeit mit den Daten.',
-      
+      a7: 'Wir arbeiten in einem gesicherten Labor mit kontrolliertem Zugang. Alle Daten werden verschlüsselt und nach erfolgreicher Rettung sicher gelöscht. Wir befolgen strenge Sicherheitsprotokolle und sind zur Verschwiegenheit verpflichtet.',
+      q8: 'Was ist bei sensiblen Daten?',
+      a8: 'Wir sind es gewohnt, mit sensiblen Daten zu arbeiten. Wir können eine NDA unterzeichnen und zusätzliche Sicherheitsmaßnahmen bereitstellen.',
       q9: 'Wie hoch sind Ihre Erfolgsquoten?',
-      a9: 'Unsere Datenrettungserfolgsquote liegt über 95%. Dank unserem eigenen Labor und modernster Ausrüstung können wir auch sehr komplexe Fälle lösen.',
-      
+      a9: 'Unsere Erfolgsquote bei der Datenrettung liegt über 95%. Dank unserem eigenen Labor und modernster Ausrüstung können wir auch sehr komplexe Fälle lösen.',
       q10: 'Was, wenn ich kein Backup habe?',
-      a10: 'Das ist eine häufige Situation. Wir sind Spezialisten für Datenrettung ohne Backup. Nach erfolgreicher Wiederherstellung beraten wir Sie gerne bei der Einrichtung einer geeigneten Backup-Lösung.'
+      a10: 'Das ist eine häufige Situation. Wir sind Spezialisten für Datenrettung ohne Backup. Nach erfolgreicher Rettung beraten wir Sie gerne bei der Einrichtung einer geeigneten Backup-Lösung.'
     }
   },
   contact: {
@@ -254,6 +254,7 @@ faq: {
     subtitle: 'Wir sind 24/7 für Sie da',
     form: {
       title: 'Schreiben Sie uns',
+      leaveMessage: 'Hinterlassen Sie uns eine Nachricht',
       name: 'Vor- und Nachname',
       email: 'E-Mail',
       phone: 'Telefon',
@@ -266,10 +267,10 @@ faq: {
       hours: 'Öffnungszeiten:\nMo-Fr: 9:00 - 18:00\nNotdienst: 24/7',
       phone: '+420 123 456 789',
       email: 'info@datahelp.cz',
-      emergency: '24/7 Notfallservice für Geschäftskunden'
+      emergency: '24/7 Notfalldienst für Geschäftskunden'
     },
     partners: {
-      title: 'Oder kontaktieren Sie unsere lokalen Partner',
+      title: 'Oder kontaktieren Sie unsere Partner',
       description: 'Wir haben ein Netzwerk zertifizierter Partner in der gesamten Tschechischen Republik'
     }
   },
@@ -277,28 +278,28 @@ faq: {
     title: 'Unsere Technologie',
     subtitle: 'Hochmoderne Ausstattung für professionelle Datenrettung',
     cleanRoom: {
-      title: 'Reinraum',
-      description: 'ISO-zertifizierter Reinraum der Klasse 100 für die sichere Handhabung empfindlicher Komponenten'
+      title: 'Staubfreie Umgebung',
+      description: 'Alle Arbeitsplätze sind mit Klasse-100-Laborboxen für die sichere Handhabung empfindlicher Komponenten ausgestattet'
     },
     tools: {
       title: 'Spezialisierte Werkzeuge',
-      description: 'Modernste Hardware- und Software-Tools für die Datenwiederherstellung'
+      description: 'Modernste Hardware- und Software-Tools für die Datenrettung'
     },
     diagnostics: {
-      title: 'Erweiterte Diagnostik',
-      description: 'Umfassende Diagnosesysteme zur präzisen Problemidentifizierung'
+      title: 'Fortgeschrittene Diagnostik',
+      description: 'Umfassende Diagnosesysteme zur genauen Problemidentifikation'
     },
     equipment: {
       title: 'Professionelle Ausrüstung',
       pc3000udma: {
-        description: 'Professionelles System für HDD-Datenrettung',
+        description: 'Professionelles System für die Festplattenrettung',
         features: {
-          manufacturers: 'Unterstützung aller HDD-Hersteller',
+          manufacturers: 'Unterstützung aller Festplattenhersteller',
           firmware: 'Firmware-Reparaturen',
-          recovery: 'Fortgeschrittene Datenwiederherstellung'
+          recovery: 'Erweiterte Datenrettung'
         }
       },
-pc3000flash: {
+      pc3000flash: {
         description: 'Spezialisiertes System für Flash-Speicher',
         features: {
           monolithic: 'Monolithische Chips',
@@ -336,7 +337,7 @@ pc3000flash: {
   },
   process: {
     title: 'Datenrettungsprozess',
-    guarantee: 'Keine Wiederherstellung = Keine Gebühr',
+    guarantee: 'Keine Datenrettung möglich = keine Kosten',
     reception: {
       title: 'Medienannahme',
       desc: 'Sichere Übernahme Ihres Geräts'
@@ -346,7 +347,7 @@ pc3000flash: {
       desc: 'Umfassende Schadensanalyse'
     },
     approval: {
-      title: 'Vorgehensweise genehmigen',
+      title: 'Verfahrensgenehmigung',
       desc: 'Preiskalkulation und Wiederherstellungsplan'
     },
     recovery: {
@@ -366,14 +367,14 @@ pc3000flash: {
     privacy: 'Datenschutz',
     terms: 'Geschäftsbedingungen',
     cookies: 'Cookies',
-    legal: 'Rechtliche Informationen'
+    legal: 'Rechtliche Hinweise'
   },
   privacy: {
     title: 'Datenschutzerklärung',
     subtitle: 'Informationen zur Verarbeitung und zum Schutz Ihrer personenbezogenen Daten',
     dataProtection: {
       title: 'Datenschutz',
-      content: 'Wir verarbeiten Ihre personenbezogenen Daten im Einklang mit der DSGVO und geltendem Recht. Wir verwenden modernste Technologien und Verfahren, um maximale Sicherheit Ihrer Daten zu gewährleisten. Alle Daten werden auf gesicherten Servern in der EU gespeichert.'
+      content: 'Wir verarbeiten Ihre personenbezogenen Daten in Übereinstimmung mit der DSGVO und geltendem Recht. Wir verwenden modernste Technologien und Verfahren, um maximale Sicherheit Ihrer Daten zu gewährleisten. Alle Daten werden auf gesicherten Servern in der EU gespeichert.'
     },
     security: {
       title: 'Sicherheitsmaßnahmen',
@@ -381,30 +382,30 @@ pc3000flash: {
     },
     transparency: {
       title: 'Transparenz',
-      content: 'Wir sind maximal transparent bezüglich der Art und Weise, wie wir Ihre personenbezogenen Daten verarbeiten. Wir erheben nur Daten, die für die Erbringung unserer Dienstleistungen erforderlich sind und verkaufen diese niemals an Dritte. Wir verwenden Ihre Daten ausschließlich für die Zwecke, für die Sie uns Ihre Einwilligung gegeben haben.'
+      content: 'Wir sind maximal transparent bezüglich der Art und Weise, wie wir Ihre personenbezogenen Daten verarbeiten. Wir erheben nur Daten, die für die Erbringung unserer Dienstleistungen erforderlich sind, und verkaufen sie niemals an Dritte. Wir verwenden Ihre Daten ausschließlich für die Zwecke, denen Sie zugestimmt haben.'
     },
     rights: {
       title: 'Ihre Rechte',
       content: 'Sie haben das Recht auf Zugang zu Ihren personenbezogenen Daten, deren Berichtigung oder Löschung, das Recht auf Einschränkung der Verarbeitung und das Recht, der Verarbeitung zu widersprechen. Sie haben auch das Recht auf Datenübertragbarkeit und das Recht, Beschwerde bei einer Aufsichtsbehörde einzureichen.'
     },
     contact: {
-      title: 'Datenschutz-Kontakt',
+      title: 'Kontakt für Datenschutz',
       content: 'Bei Fragen zur Verarbeitung Ihrer personenbezogenen Daten können Sie uns kontaktieren:',
       address: 'Adresse'
-    },
+    }
   },
-terms: {
+  terms: {
     title: 'Geschäftsbedingungen',
-    subtitle: 'Allgemeine Geschäftsbedingungen der DataHelp',
+    subtitle: 'Allgemeine Geschäftsbedingungen der DataHelp GmbH',
     lastUpdated: 'Letzte Aktualisierung: 1. März 2024',
     sections: {
       general: {
         title: 'Allgemeine Bestimmungen',
-        content: 'Diese Allgemeinen Geschäftsbedingungen regeln die Beziehungen zwischen DataHelp GmbH und ihren Kunden bei der Erbringung von Datenrettungsdiensten.'
+        content: 'Diese Allgemeinen Geschäftsbedingungen regeln die Beziehungen zwischen der DataHelp GmbH und ihren Kunden bei der Erbringung von Datenrettungsdiensten.'
       },
       services: {
-        title: 'Erbrachte Dienstleistungen',
-        content: 'Das Unternehmen bietet Datenrettungsdienste für beschädigte Datenträger an. Die Dienstleistungen umfassen Diagnose, Datenrettung und sichere Übergabe an den Kunden.'
+        title: 'Angebotene Dienstleistungen',
+        content: 'Das Unternehmen bietet Datenrettungsdienste von beschädigten Datenträgern an. Die Dienstleistungen umfassen Diagnose, Datenrettung und sichere Übergabe an den Kunden.'
       },
       pricing: {
         title: 'Preise und Zahlungen',
@@ -416,22 +417,22 @@ terms: {
       },
       confidentiality: {
         title: 'Vertraulichkeit',
-        content: 'Wir verpflichten uns zur absoluten Verschwiegenheit über alle Daten und Informationen, die während der Dienstleistungserbringung erlangt werden.'
+        content: 'Wir verpflichten uns zu absoluter Verschwiegenheit über alle Daten und Informationen, die während der Dienstleistungserbringung erlangt werden.'
       },
       complaints: {
         title: 'Reklamationen',
-        content: 'Eventuelle Reklamationen behandeln wir individuell mit maximaler Bemühung um Kundenzufriedenheit. Reklamationen können innerhalb von 30 Tagen geltend gemacht werden.'
+        content: 'Eventuelle Reklamationen der Dienstleistungen behandeln wir individuell mit maximaler Bemühung um Kundenzufriedenheit. Reklamationen können innerhalb von 30 Tagen geltend gemacht werden.'
       }
     }
   },
   cookies: {
-    title: 'Cookie-Richtlinien',
+    title: 'Cookie-Richtlinie',
     subtitle: 'Informationen zur Verwendung von Cookies auf unserer Website',
     lastUpdated: 'Letzte Aktualisierung: 1. März 2024',
     sections: {
       what: {
         title: 'Was sind Cookies',
-        content: 'Cookies sind kleine Textdateien, die bei Ihrem Besuch auf unserer Website in Ihrem Browser gespeichert werden. Sie helfen uns, die grundlegende Funktionalität der Website sicherzustellen, die Besucherzahlen zu analysieren und die Inhalte an Ihre Bedürfnisse anzupassen.'
+        content: 'Cookies sind kleine Textdateien, die bei Ihrem Besuch auf unserer Website in Ihrem Browser gespeichert werden. Sie helfen uns, die grundlegende Funktionalität der Website zu gewährleisten, die Besucherzahlen zu analysieren und die Inhalte an Ihre Bedürfnisse anzupassen.'
       },
       types: {
         title: 'Cookie-Arten',
@@ -440,7 +441,7 @@ terms: {
           content: 'Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie können nicht deaktiviert werden.'
         },
         analytical: {
-          title: 'Analyse-Cookies',
+          title: 'Analytische Cookies',
           content: 'Helfen uns zu verstehen, wie Besucher die Website nutzen. Alle Daten werden anonymisiert.'
         },
         functional: {
@@ -453,7 +454,7 @@ terms: {
         content: 'Wir verwenden Cookies für:',
         purposes: [
           'Gewährleistung der grundlegenden Websitenfunktionalität',
-          'Analyse des Besucherverhaltens und der Nutzeraktivität',
+          'Analyse der Besucherzahlen und des Nutzerverhaltens',
           'Verbesserung unserer Dienstleistungen',
           'Speicherung Ihrer Präferenzen'
         ]
@@ -464,7 +465,7 @@ terms: {
       },
       consent: {
         title: 'Ihre Einwilligung',
-        content: 'Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß diesen Richtlinien zu.'
+        content: 'Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß dieser Richtlinie zu.'
       }
     }
   }

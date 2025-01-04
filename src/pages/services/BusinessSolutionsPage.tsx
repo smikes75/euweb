@@ -79,7 +79,7 @@ export function BusinessSolutionsPage() {
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h2 className="text-xl font-bold text-primary mb-8">Pro více informací kontaktujte naše obchodníky:</h2>
+              <h2 className="text-xl font-bold text-primary mb-8">{t('services.business.contact.salesTeam')}</h2>
               <div className="space-y-6">
                 {salesTeam.map((member, index) => (
                   <div key={index} className="border-l-4 border-accent pl-4">
@@ -97,7 +97,7 @@ export function BusinessSolutionsPage() {
             </div>
             
             <div>
-              <h3 className="text-xl font-bold text-primary mb-6">Nebo nám zanechte zprávu:</h3>
+              <h3 className="text-xl font-bold text-primary mb-6">{t('services.business.contact.leaveMessage')}</h3>
               <Contact />
             </div>
           </div>
