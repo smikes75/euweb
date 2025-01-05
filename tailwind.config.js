@@ -14,6 +14,15 @@ export default {
           light: '#FFB52E',
           dark: '#CC8400'
         }
+      },
+      keyframes: {
+        'scrolling-text': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        }
+      },
+      animation: {
+        'scrolling-text': 'scrolling-text 20s linear infinite'
       }
     },
   },

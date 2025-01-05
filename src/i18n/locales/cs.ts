@@ -6,6 +6,12 @@ export const cs = {
     pricing: 'Ceník',
     contact: 'Kontakt'
   },
+  banner: {
+    noPayment: 'Happy New Year 2025',
+    freeConsultation: 'Šťastný nový rok 2025',
+    secureRecovery: 'Frohes neues Jahr 2025',
+    certified: 'Felice Anno Nuovo 2025'
+  },
   hero: {
     title: 'Profesionální obnova dat\npro firmy i jednotlivce',
     subtitle: 'Specializujeme se na záchranu dat z poškozených médií již více než 20 let.',

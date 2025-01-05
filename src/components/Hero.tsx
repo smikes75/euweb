@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Server, Trophy } from 'lucide-react';
+import { Shield, Trophy, Cpu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { backgroundImages } from '../utils/imageUtils';
@@ -57,7 +57,7 @@ export function Hero() {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Server className="h-12 w-12 text-accent" />
+              <Cpu className="h-12 w-12 text-accent" />
               <div>
                 <h3 className="font-semibold text-lg">{t('hero.technology')}</h3>
                 <p>{t('hero.technologyDesc')}</p>

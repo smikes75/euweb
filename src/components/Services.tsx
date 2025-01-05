@@ -1,5 +1,5 @@
 import React from 'react';
-import { HardDrive, Smartphone, Database, Handshake, Shield, Workflow, Clock } from 'lucide-react';
+import { HardDrive, Smartphone, Database, Handshake } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Clock, Shield, Headphones, Handshake } from 'lucide-react';
+import { Rocket, Handshake, Users, Medal } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Contact } from '../../components/Contact';
 
@@ -8,17 +8,17 @@ export function BusinessSolutionsPage() {
 
   const features = [
     {
-      icon: <Clock className="h-8 w-8 text-accent" />,
+      icon: <Users className="h-8 w-8 text-accent" />,
       title: t('services.business.features.support'),
       description: t('services.business.features.supportDesc')
     },
     {
-      icon: <Shield className="h-8 w-8 text-accent" />,
+      icon: <Medal className="h-8 w-8 text-accent" />,
       title: t('services.business.features.security'),
       description: t('services.business.features.securityDesc')
     },
     {
-      icon: <Headphones className="h-8 w-8 text-accent" />,
+      icon: <Rocket className="h-8 w-8 text-accent" />,
       title: t('services.business.features.priority'),
       description: t('services.business.features.priorityDesc')
     }

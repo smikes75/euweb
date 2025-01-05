@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, Server, HardDrive, Shield } from 'lucide-react';
+import { Database, Server, Shield } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export function RAIDSystemsPage() {
