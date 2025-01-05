@@ -16,13 +16,13 @@ export default {
         }
       },
       keyframes: {
-        'scrolling-text': {
+        scroll: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' }
         }
       },
       animation: {
-        'scrolling-text': 'scrolling-text 20s linear infinite'
+        scroll: 'scroll 25s linear infinite'
       }
     },
   },
