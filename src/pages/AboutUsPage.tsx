@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Users, Clock, Shield, Cpu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';

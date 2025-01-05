@@ -6,6 +6,12 @@ export const en = {
     pricing: 'Pricing',
     contact: 'Contact'
   },
+  banner: {
+    noPayment: 'Happy New Year 2025',
+    freeConsultation: 'Šťastný nový rok 2025',
+    secureRecovery: 'Frohes neues Jahr 2025',
+    certified: 'Felice Anno Nuovo 2025'
+  },
   hero: {
     title: 'Professional Data Recovery\nfor businesses and individuals',
     subtitle: 'We specialize in data recovery from damaged media for more than 20 years.',

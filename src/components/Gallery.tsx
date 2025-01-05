@@ -1,6 +1,4 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { getOptimizedImageUrl } from '../utils/imageUtils';
 
 export function Gallery() {
   const { t } = useTranslation();
@@ -32,12 +30,15 @@ export function Gallery() {
           {images.map((image, index) => (
             <div key={index} className="relative aspect-square overflow-hidden rounded-lg shadow-lg group">
               <img
-                src={getOptimizedImageUrl(image.url)}
+                src={image.url}
                 alt={image.alt}
                 className="w-full h-full object-cover transform transition duration-300 group-hover:scale-110"
-                loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                <p className="absolute bottom-3 left-4 text-white font-medium text-base drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] tracking-wide">
+                  {image.alt}
+                </p>
+              </div>
             </div>
           ))}
         </div>

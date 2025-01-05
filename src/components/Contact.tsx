@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FormInput } from './ui/FormInput';
 import { FormTextarea } from './ui/FormTextarea';

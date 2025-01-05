@@ -341,10 +341,10 @@ export const cs = {
   },
   gallery: {
     title: 'Naše laboratoř',
-    cleanRoom: 'Čistá místnost',
+    cleanRoom: 'Osciloskop',
     diagnostics: 'Diagnostika',
-    serverRoom: 'Serverovna',
-    dataCenter: 'Datové centrum'
+    serverRoom: 'Spider',
+    dataCenter: 'Recepce'
   },
   process: {
     title: 'Proces záchrany dat',

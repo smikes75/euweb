@@ -6,6 +6,12 @@ export const de = {
     pricing: 'Preise',
     contact: 'Kontakt'
   },
+  banner: {
+    noPayment: 'Frohes neues Jahr 2025',
+    freeConsultation: 'Šťastný nový rok 2025',
+    secureRecovery: 'Happy New Year 2025',
+    certified: 'Felice Anno Nuovo 2025'
+  },
   hero: {
     title: 'Professionelle Datenrettung\nfür Unternehmen und Privatpersonen',
     subtitle: 'Wir sind seit über 20 Jahren auf die Rettung von Daten aus beschädigten Medien spezialisiert.',
