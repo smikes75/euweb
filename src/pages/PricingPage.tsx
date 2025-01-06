@@ -1,5 +1,5 @@
 import React from 'react';
-import { HardDrive, Smartphone, Database, Building2 } from 'lucide-react';
+import { HardDrive, Smartphone, Database, Handshake } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { FAQ } from '../components/FAQ';
@@ -48,7 +48,7 @@ export function PricingPage() {
       ]
     },
     {
-      icon: <Building2 className="h-8 w-8 text-accent" />,
+      icon: <Handshake className="h-8 w-8 text-accent" />,
       title: t('pricing.business.title'),
       description: t('pricing.business.description'),
       price: t('pricing.business.price'),

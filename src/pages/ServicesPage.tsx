@@ -1,5 +1,5 @@
 import React from 'react';
-import { HardDrive, Smartphone, Database, Handshake, Shield, Workflow, Clock } from 'lucide-react';
+import { HardDrive, Smartphone, Database, Handshake, ShieldCheck, Medal, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
@@ -91,14 +91,7 @@ export function ServicesPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="flex justify-center mb-4">
-                <Shield className="h-12 w-12 text-accent" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2 text-primary">{t('services.benefits.security')}</h3>
-              <p className="text-gray-600">{t('services.benefits.securityDesc')}</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-              <div className="flex justify-center mb-4">
-                <Workflow className="h-12 w-12 text-accent" />
+                <Medal className="h-12 w-12 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-primary">{t('services.benefits.expertise')}</h3>
               <p className="text-gray-600">{t('services.benefits.expertiseDesc')}</p>
@@ -109,6 +102,13 @@ export function ServicesPage() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-primary">{t('services.benefits.speed')}</h3>
               <p className="text-gray-600">{t('services.benefits.speedDesc')}</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+              <div className="flex justify-center mb-4">
+                <ShieldCheck className="h-12 w-12 text-accent" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-primary">{t('services.benefits.security')}</h3>
+              <p className="text-gray-600">{t('services.benefits.securityDesc')}</p>
             </div>
           </div>
         </div>

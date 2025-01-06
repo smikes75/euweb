@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Trophy, Cpu } from 'lucide-react';
+import { ShieldCheck, Cpu, Trophy } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { backgroundImages } from '../utils/imageUtils';
@@ -35,13 +35,14 @@ export function Hero() {
             <div className="flex flex-wrap gap-4">
               <Link 
                 to="/contact" 
-                className="bg-accent text-white px-6 py-3 rounded-lg font-semibold hover:bg-accent-light transition"
+                 className="bg-accent border-2 border-accent text-white text-lg px-6 py-3 rounded-lg font-semibold hover:bg-accent-light hover:text-white transition"
+
               >
                 {t('hero.consultation')}
               </Link>
               <Link 
                 to="/services" 
-                className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition"
+                className="border-2 border-white text-white text-lg px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition"
               >
                 {t('hero.ourServices')}
               </Link>
@@ -50,7 +51,7 @@ export function Hero() {
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="flex items-center space-x-4">
-              <Shield className="h-12 w-12 text-accent" />
+              <ShieldCheck className="h-12 w-12 text-accent" />
               <div>
                 <h3 className="font-semibold text-lg">{t('hero.security')}</h3>
                 <p>{t('hero.securityDesc')}</p>

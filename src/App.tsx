@@ -18,11 +18,9 @@ import { BusinessSolutionsPage } from './pages/services/BusinessSolutionsPage';
 import { BlogPage } from './pages/BlogPage';
 import { BlogPostPage } from './pages/blog/BlogPostPage';
 import { PrivacyPage } from './pages/PrivacyPage';
-import { useTranslation } from 'react-i18next';
 import { TermsPage } from './pages/TermsPage';
 import { CookiesPage } from './pages/CookiesPage';
 function App() {
-  const { t } = useTranslation();
   
   return (
     <HelmetProvider>
