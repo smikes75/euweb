@@ -1,11 +1,9 @@
 import React from 'react';
-import { Phone, Mail, MessageSquare, Building } from 'lucide-react';
+import { Phone, Mail, MapPin, Shield, MessageSquare, Building } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
-
 export function ContactPage() {
   const { t } = useTranslation();
-
   const partners = [
     {
       country: 'DataHelp s.r.o.',
@@ -14,13 +12,6 @@ export function ContactPage() {
       phone: '+420 775 220 440',
       email: 'info@datahelp.eu'
     },
-   // {
-   //   country: 'Deutschland',
-   //   city: 'Berlin',
-   //   address: 'Alexanderplatz 1, 10178 Berlin',
-   //   phone: '+49 30 1234567',
-   //   email: 'berlin@datahelp.eu'
-   // },
     {
       country: 'Kreml & Co GesmbH',
       city: 'Wien',
@@ -28,13 +19,6 @@ export function ContactPage() {
       phone: '+43 676 400 6666',
       email: 'office@kreml-edv.at'
     },
-   // {
-   //   country: 'Polska',
-   //   city: 'Warszawa',
-   //   address: 'ul. Marszałkowska 1, 00-001 Warszawa',
-   //   phone: '+48 22 1234567',
-   //   email: 'warszawa@datahelp.eu'
-   // },
     {
       country: 'PRO.Laika spol. s r.o',
       city: 'Bratislava',
@@ -42,13 +26,6 @@ export function ContactPage() {
       phone: '+421 2 5441 4880',
       email: 'servis@prolaika.sk'
     },
-   // {
-   //   country: 'Hungary',
-   //   city: 'Budapest',
-   //   address: 'Andrássy út 1, 1061 Budapest',
-   //   phone: '+36 1 2345678',
-   //   email: 'budapest@datahelp.eu'
-   // }
   ];
 
   return (
@@ -125,11 +102,21 @@ export function ContactPage() {
                     <div className="space-y-1">
                       <p className="flex items-center space-x-2">
                         <Phone className="h-4 w-4 text-accent" />
-                        <span className="text-gray-600 text-sm">{partner.phone}</span>
+                        <a 
+                          href={`tel:${partner.phone}`} 
+                          className="text-gray-600 text-sm hover:text-primary transition-colors"
+                        >
+                          {partner.phone}
+                        </a>
                       </p>
                       <p className="flex items-center space-x-2">
                         <Mail className="h-4 w-4 text-accent" />
-                        <span className="text-gray-600 text-sm">{partner.email}</span>
+                        <a 
+                          href={`mailto:${partner.email}`}
+                          className="text-gray-600 text-sm hover:text-primary transition-colors"
+                        >
+                          {partner.email}
+                        </a>
                       </p>
                     </div>
                   </div>
