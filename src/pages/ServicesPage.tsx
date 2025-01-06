@@ -3,8 +3,6 @@ import { HardDrive, Smartphone, Database, Handshake, ShieldCheck, Medal, Clock }
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
-import { getBackgroundStyle } from '../utils/imageUtils';
-
 export function ServicesPage() {
   const { t } = useTranslation();
 

@@ -8,7 +8,7 @@ export function Logo() {
         <img 
           src="/DataHelp.eu.svg" 
           alt="DataHelp.eu"
-          className="h-13 md:h-[3.72rem] w-auto" // Reduced from h-14 md:h-16 (approximately 7% smaller)
+          className="h-11 md:h-[3.72rem] w-auto" // Reduced from h-14 md:h-16 (approximately 7% smaller)
         />
       </Link>
     </div>

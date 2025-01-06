@@ -2,7 +2,6 @@ import React from 'react';
 import { Rocket, Handshake, Users, Medal } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Contact } from '../../components/Contact';
-
 export function BusinessSolutionsPage() {
   const { t } = useTranslation();
 

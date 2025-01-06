@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+// Lokální vlajky
 const FLAGS = {
-  cs: "🇨🇿",
-  de: "🇩🇪",
-  en: "🇬🇧",
-  //it: "🇮🇹" 
+  cs: "/flags/cs.svg",
+  de: "/flags/de.svg",
+  en: "/flags/en.svg",
+  // it: "/flags/it.svg"
 } as const;
 
 type LanguageKey = keyof typeof FLAGS;
@@ -15,13 +16,14 @@ export function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Set default language to Czech if not already set
+  // Nastavení výchozího jazyka, pokud není nastaven
   useEffect(() => {
     if (!i18n.language || !Object.keys(FLAGS).includes(i18n.language)) {
       i18n.changeLanguage('en');
     }
   }, [i18n]);
 
+  // Zavření dropdownu při kliknutí mimo
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -42,25 +44,32 @@ export function LanguageSelector() {
 
   return (
     <div className="relative" ref={dropdownRef}>
+      {/* Tlačítko s aktuální vlajkou */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center px-3 py-2 rounded-md hover:bg-gray-100 transition-colors"
         aria-label="Vybrat jazyk"
       >
-        <span className="text-2xl">{currentFlag}</span>
+        <img
+          src={currentFlag}
+          alt={i18n.language}
+          className="h-5 w-auto"
+        />
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 bg-white rounded-md shadow-lg py-1 z-50">
+        <div className="absolute right-0 mt-3 bg-white rounded-md shadow-lg py-1 z-50">
           {Object.entries(FLAGS).map(([lang, flag]) => (
             <button
               key={lang}
               onClick={() => changeLanguage(lang as LanguageKey)}
-              className={`w-full flex items-center px-4 py-2 text-left hover:bg-gray-100 ${
-                i18n.language === lang ? 'bg-primary/10' : ''
-              }`}
+              className="w-full flex items-center px-4 py-2 hover:bg-gray-100"
             >
-              <span className="text-2xl">{flag}</span>
+              <img
+                src={flag}
+                alt={lang}
+                className="h-6 w-auto"
+              />
             </button>
           ))}
         </div>

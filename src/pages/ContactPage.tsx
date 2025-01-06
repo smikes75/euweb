@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Shield, MessageSquare, Building } from 'lucide-react';
+import { Phone, Mail, MessageSquare, Building } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 export function ContactPage() {
