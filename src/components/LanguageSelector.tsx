@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FLAG_COMPONENTS, type LanguageKey } from './FlagComponents';
+import { FLAG_COMPONENTS, type LanguageKey, type FlagProps } from './FlagComponents';
 
 export function LanguageSelector() {
   const { i18n } = useTranslation();

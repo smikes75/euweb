@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface FlagProps {
+export interface FlagProps {
   className?: string;
 }
 
