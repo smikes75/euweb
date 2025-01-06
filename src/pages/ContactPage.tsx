@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Shield, MessageSquare, Building } from 'lucide-react';
+import { Phone, Mail, MessageSquare, Building } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 
@@ -8,11 +8,11 @@ export function ContactPage() {
 
   const partners = [
     {
-      country: 'Česká republika',
+      country: 'DataHelp s.r.o.',
       city: 'Praha',
       address: 'Jirsíkova 541/1, 186 00 Praha 8 - Karlín',
-      phone: '+420 123 456 789',
-      email: 'praha@datahelp.eu'
+      phone: '+420 775 220 440',
+      email: 'info@datahelp.eu'
     },
    // {
    //   country: 'Deutschland',
@@ -22,11 +22,11 @@ export function ContactPage() {
    //   email: 'berlin@datahelp.eu'
    // },
     {
-      country: 'Österreich',
+      country: 'Kreml & Co GesmbH',
       city: 'Wien',
-      address: 'Stephansplatz 1, 1010 Wien',
-      phone: '+43 1 2345678',
-      email: 'wien@datahelp.eu'
+      address: 'Gymnasiumstraße 42 / 5, 1180 Wien',
+      phone: '+43 676 400 6666',
+      email: 'office@kreml-edv.at'
     },
    // {
    //   country: 'Polska',
@@ -36,11 +36,11 @@ export function ContactPage() {
    //   email: 'warszawa@datahelp.eu'
    // },
     {
-      country: 'Slovensko',
+      country: 'PRO.Laika spol. s r.o',
       city: 'Bratislava',
-      address: 'Námestie SNP 1, 811 01 Bratislava',
-      phone: '+421 2 1234567',
-      email: 'bratislava@datahelp.eu'
+      address: 'Palackého 12, 811 02 Bratislava',
+      phone: '+421 2 5441 4880',
+      email: 'servis@prolaika.sk'
     },
    // {
    //   country: 'Hungary',
