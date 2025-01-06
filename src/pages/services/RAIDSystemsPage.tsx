@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, Server, Shield } from 'lucide-react';
+import { Database, Server, ServerCog, ShieldCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export function RAIDSystemsPage() {
@@ -17,7 +17,7 @@ export function RAIDSystemsPage() {
       description: t('services.raid.features.softwareDesc')
     },
     {
-      icon: <Shield className="h-8 w-8 text-accent" />,
+      icon: <ServerCog className="h-8 w-8 text-accent" />,
       title: t('services.raid.features.virtual'),
       description: t('services.raid.features.virtualDesc')
     }
@@ -104,7 +104,7 @@ export function RAIDSystemsPage() {
 
         <div className="bg-primary/5 rounded-lg p-8">
           <div className="flex items-start space-x-4">
-            <Shield className="h-8 w-8 text-accent flex-shrink-0" />
+            <ShieldCheck className="h-8 w-8 text-accent flex-shrink-0" />
             <div>
               <h3 className="text-xl font-semibold mb-2 text-primary">{t('services.raid.security.title')}</h3>
               <p className="text-gray-600">{t('services.raid.security.description')}</p>
