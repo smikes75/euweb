@@ -1,36 +1,24 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-
-// Lokální vlajky
-const FLAGS = {
-  cs: "/flags/cs.svg",
-  de: "/flags/de.svg",
-  en: "/flags/en.svg",
-  // it: "/flags/it.svg"
-} as const;
-
-type LanguageKey = keyof typeof FLAGS;
+import { FLAG_COMPONENTS, type LanguageKey } from './FlagComponents';
 
 export function LanguageSelector() {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Nastavení výchozího jazyka, pokud není nastaven
   useEffect(() => {
-    if (!i18n.language || !Object.keys(FLAGS).includes(i18n.language)) {
+    if (!i18n.language || !Object.keys(FLAG_COMPONENTS).includes(i18n.language)) {
       i18n.changeLanguage('en');
     }
   }, [i18n]);
 
-  // Zavření dropdownu při kliknutí mimo
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setIsOpen(false);
       }
     }
-
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
@@ -40,38 +28,37 @@ export function LanguageSelector() {
     setIsOpen(false);
   };
 
-  const currentFlag = FLAGS[i18n.language as LanguageKey] || FLAGS.cs;
+  const CurrentFlag = FLAG_COMPONENTS[i18n.language as LanguageKey] || FLAG_COMPONENTS.en;
 
   return (
     <div className="relative" ref={dropdownRef}>
-      {/* Tlačítko s aktuální vlajkou */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center px-3 py-2 rounded-md hover:bg-gray-100 transition-colors"
+        className="w-12 h-10 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors mt-2"
         aria-label="Vybrat jazyk"
       >
-        <img
-          src={currentFlag}
-          alt={i18n.language}
-          className="h-5 w-auto"
-        />
+        <div className="w-6">
+          <CurrentFlag className="h-6 w-auto" />
+        </div>
       </button>
-
+      
       {isOpen && (
-        <div className="absolute right-0 mt-3 bg-white rounded-md shadow-lg py-1 z-50">
-          {Object.entries(FLAGS).map(([lang, flag]) => (
-            <button
-              key={lang}
-              onClick={() => changeLanguage(lang as LanguageKey)}
-              className="w-full flex items-center px-4 py-2 hover:bg-gray-100"
-            >
-              <img
-                src={flag}
-                alt={lang}
-                className="h-6 w-auto"
-              />
-            </button>
-          ))}
+        <div 
+          className="absolute right-1/2 translate-x-1/2 mt-1 bg-white bg-opacity-90 rounded-md shadow-lg z-50 w-12 overflow-hidden py-1"
+        >
+          <div className="flex flex-col items-center">
+{(Object.entries(FLAG_COMPONENTS) as [LanguageKey, React.FC<FlagProps>][]).map(([lang, FlagComponent]) => (
+              <button
+                key={lang}
+                onClick={() => changeLanguage(lang)}
+                className="w-full hover:bg-gray-100 py-2 flex justify-center"
+              >
+                <div className="w-6">
+                  <FlagComponent className="h-6 w-auto" />
+                </div>
+              </button>
+            ))}
+          </div>
         </div>
       )}
     </div>
