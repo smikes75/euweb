@@ -7,9 +7,9 @@ export const cs = {
     contact: 'Kontakt'
   },
   banner: {
-    noPayment: 'Happy New Year 2025',
+    noPayment: 'Happy New Year 2025!',
     freeConsultation: 'Šťastný nový rok 2025',
-    secureRecovery: 'Frohes neues Jahr 2025',
+    secureRecovery: 'Frohes neues Jahr 2025!',
     certified: 'Felice Anno Nuovo 2025'
   },
   hero: {
