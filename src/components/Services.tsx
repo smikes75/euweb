@@ -62,7 +62,7 @@ export function Services() {
             <Link 
               key={index} 
               to={service.link}
-              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1"
+              className="bg-gradient-to-br from-white via-white to-primary/5 p-8 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1"
             >
               <div className="flex justify-center mb-6">{service.icon}</div>
               <h3 className="text-xl font-semibold text-center mb-4 text-primary">{service.title}</h3>
