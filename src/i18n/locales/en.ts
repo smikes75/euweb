@@ -4,7 +4,8 @@ export const en = {
     services: 'Services',
     about: 'About',
     pricing: 'Pricing',
-    contact: 'Contact'
+    contact: 'Contact',
+     blog: 'Blog'
   },
   banner: {
     noPayment: 'Happy New Year 2025',

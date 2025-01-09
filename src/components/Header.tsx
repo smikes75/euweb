@@ -45,6 +45,7 @@ export function Header() {
             <Link to="/pricing" className={isActive("/pricing")}>{t('nav.pricing')}</Link>
             <Link to="/faq" className={isActive("/faq")}>FAQ</Link>
             <Link to="/contact" className={isActive("/contact")}>{t('nav.contact')}</Link>
+            <Link to="/blog" className={isActive("/blog")}>Blog</Link>
             <LanguageSelector />
           </div>
 
@@ -70,6 +71,7 @@ export function Header() {
             <Link to="/pricing" className={`block font-bold ${isActive("/pricing")}`}>{t('nav.pricing')}</Link>
             <Link to="/faq" className={`block font-bold ${isActive("/faq")}`}>FAQ</Link>
             <Link to="/contact" className={`block font-bold ${isActive("/contact")}`}>{t('nav.contact')}</Link>
+            <Link to="/blog" className={`block font-bold ${isActive("/blog")}`}>Blog</Link>
           </div>
         )}
       </nav>

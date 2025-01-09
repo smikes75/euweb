@@ -4,7 +4,8 @@ export const de = {
     services: 'Dienstleistungen',
     about: 'Über uns',
     pricing: 'Preise',
-    contact: 'Kontakt'
+    contact: 'Kontakt',
+     blog: 'Blog'
   },
   banner: {
     noPayment: 'Frohes neues Jahr 2025',

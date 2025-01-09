@@ -4,7 +4,8 @@ export const cs = {
     services: 'Služby',
     about: 'O nás',
     pricing: 'Ceník',
-    contact: 'Kontakt'
+    contact: 'Kontakt',
+    blog: 'Blog'
   },
   banner: {
     noPayment: 'Happy New Year 2025!',
@@ -341,10 +342,10 @@ export const cs = {
   },
   gallery: {
     title: 'Naše laboratoř',
-    cleanRoom: 'Osciloskop',
-    diagnostics: 'Diagnostika',
-    serverRoom: 'Spider',
-    dataCenter: 'Recepce'
+    cleanRoom: 'Náš tým',
+    diagnostics: 'Recepce',
+    serverRoom: 'Diagnostika',
+    dataCenter: 'AceLab Spider'
   },
   process: {
     title: 'Proces záchrany dat',

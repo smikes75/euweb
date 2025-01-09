@@ -4,7 +4,9 @@ export const it = {
     services: 'Servizi',
     about: 'Chi siamo',
     pricing: 'Prezzi',
-    contact: 'Contatti'
+    contact: 'Contatti',
+    blog: 'Blog'
+
   },
   hero: {
     title: 'Recupero dati professionale\nper aziende e privati',
