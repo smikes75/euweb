@@ -329,19 +329,19 @@ export const cs = {
       }
     },
     security: {
-      title: 'Bezpečnostní protokoly',
+      title: 'Další technologie',
       protocols: {
-        title: 'Bezpečnost dat',
-        description: 'Přísné bezpečnostní protokoly pro ochranu vašich dat'
+        title: 'Nejlepší dostupné nástroje',
+        description: 'Pro maximální úspěšnost při záchraně dat využíváme špičkové zařízení od předních výrobců, jako jsou ACE Laboratory, DeepSpar, Rusolut NAND Reconstructor a Cellebrite. Díky tomu jsme schopni efektivně obnovovat data z HDD, SSD, RAID systémů i mobilních zařízení.'
       },
       specialists: {
-        title: 'Certifikovaní specialisté',
-        description: 'Tým vysoce kvalifikovaných odborníků s mnohaletými zkušenostmi'
+        title: 'Používáme vlastní řešení',
+        description: 'Vyvíjíme specializovaný software pro kontrolu a validaci poškozených dat, díky kterému urychlujeme proces jejich obnovy. Pro bezpečnou manipulaci s mechanickými díly využíváme vlastní přípravky, které navrhujeme a vyrábíme technikou SLA 3D tisku.'
       }
     }
   },
   gallery: {
-    title: 'Naše laboratoř',
+    title: 'Naše firma',
     cleanRoom: 'Náš tým',
     diagnostics: 'Recepce',
     serverRoom: 'Diagnostika',

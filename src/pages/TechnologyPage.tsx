@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, Shield, Wrench, Search, Database } from 'lucide-react';
+import { Cpu, Zap, Wrench, Search, Cog } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 
@@ -97,14 +97,14 @@ export function TechnologyPage() {
           <h2 className="text-3xl font-bold mb-8 text-center text-primary">{t('techPage.security.title')}</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex items-start space-x-4">
-              <Shield className="h-8 w-8 text-accent flex-shrink-0" />
+              <Zap className="h-8 w-8 text-accent flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-primary">{t('techPage.security.protocols.title')}</h3>
                 <p className="text-gray-600">{t('techPage.security.protocols.description')}</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <Database className="h-8 w-8 text-accent flex-shrink-0" />
+              <Cog className="h-8 w-8 text-accent flex-shrink-0" />
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-primary">{t('techPage.security.specialists.title')}</h3>
                 <p className="text-gray-600">{t('techPage.security.specialists.description')}</p>
