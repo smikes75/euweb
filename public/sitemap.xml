@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://datahelp.eu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de"/>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://datahelp.eu/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/services"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/services"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/about"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/pricing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/pricing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/pricing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/pricing"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/contact"/>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://datahelp.eu/services/hdd-recovery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/services/hdd-recovery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/services/hdd-recovery"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/services/hdd-recovery"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/services/ssd-recovery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/services/ssd-recovery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/services/ssd-recovery"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/services/ssd-recovery"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/services/raid-systems</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/services/raid-systems"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/services/raid-systems"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/services/raid-systems"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/services/business-solutions</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/services/business-solutions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/services/business-solutions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/services/business-solutions"/>
+  </url>
+
+  <!-- Info Pages -->
+  <url>
+    <loc>https://datahelp.eu/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/faq"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/privacy"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/terms"/>
+  </url>
+  <url>
+    <loc>https://datahelp.eu/cookies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://datahelp.eu/cs/cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://datahelp.eu/en/cookies"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://datahelp.eu/de/cookies"/>
+  </url>
+</urlset>

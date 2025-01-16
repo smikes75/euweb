@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://datahelp.eu/sitemap.xml
+
+# Disallow admin paths
+Disallow: /admin/
+Disallow: /admin/*
+
+# Disallow API paths
+Disallow: /api/
+Disallow: /api/*
+
+# Crawl-delay
+Crawl-delay: 10
