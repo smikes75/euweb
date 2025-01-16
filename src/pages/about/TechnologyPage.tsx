@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Cpu, Shield, Wrench, Search, Database } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../../components/PageHeader';

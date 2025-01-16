@@ -1,7 +1,8 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export function PrivacyPage() {
   const { t } = useTranslation();
@@ -30,6 +31,14 @@ export function PrivacyPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.privacy.title')}
+      description={t('seo.privacy.description')}
+      keywords={t('seo.privacy.keywords')}
+      canonical="https://datahelp.eu/privacy"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('privacy.title')}
@@ -74,5 +83,7 @@ export function PrivacyPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

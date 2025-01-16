@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { HardDrive, Smartphone, Database, Handshake, ShieldCheck, Medal, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';

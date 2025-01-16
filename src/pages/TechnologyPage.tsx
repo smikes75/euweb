@@ -1,7 +1,8 @@
-import React from 'react';
+
 import { Cpu, Zap, Wrench, Search, Cog } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
+import { SEO } from '../components/SEO';
 
 export function TechnologyPage() {
   const { t } = useTranslation();
@@ -55,6 +56,14 @@ export function TechnologyPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.technology.title')}
+      description={t('seo.technology.description')}
+      keywords={t('seo.technology.keywords')}
+      canonical="https://datahelp.eu/technology"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('techPage.title')}
@@ -114,5 +123,7 @@ export function TechnologyPage() {
         </div>
       </div>
     </div>
-  );
+  };
+  </>
+);
 }

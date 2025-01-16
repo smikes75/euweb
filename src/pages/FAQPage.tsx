@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { PageHeader } from '../components/PageHeader';
 import { FAQ } from '../components/FAQ';
 import { useTranslation } from 'react-i18next';

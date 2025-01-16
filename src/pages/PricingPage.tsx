@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { HardDrive, Smartphone, Database, Building2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';

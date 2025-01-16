@@ -1,7 +1,8 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { Cookie, Shield, Settings } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export function CookiesPage() {
   const { t } = useTranslation();
@@ -38,6 +39,14 @@ export function CookiesPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.cookies.title')}
+      description={t('seo.cookies.description')}
+      keywords={t('seo.cookies.keywords')}
+      canonical="https://datahelp.eu/cookies"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('cookies.title')}
@@ -81,5 +90,7 @@ export function CookiesPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

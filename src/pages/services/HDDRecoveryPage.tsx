@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { HardDrive, Shield, Wrench, AlertCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { backgroundImages } from '../../utils/imageUtils';

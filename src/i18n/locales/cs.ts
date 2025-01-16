@@ -1,4 +1,81 @@
 export const cs = {
+  seo: {
+    home: {
+      title: "DataHelp.eu - Profesionální obnova dat | HDD, SSD, RAID",
+      description: "Specializujeme se na profesionální záchranu dat z poškozených médií. Více než 20 let zkušeností s obnovou dat z HDD, SSD, RAID systémů.",
+      keywords: "obnova dat, záchrana dat, hdd recovery, ssd recovery, raid recovery"
+    },
+    about: {
+      title: "O nás | DataHelp.eu - Profesionální záchrana dat",
+      description: "Již více než 20 let jsme vaším spolehlivým partnerem pro obnovu dat. Specializovaná laboratoř v Praze, certifikovaní technici.",
+      keywords: "o nás, datahelp, záchrana dat praha, obnova dat"
+    },
+    services: {
+      title: "Služby | DataHelp.eu - Záchrana dat z HDD, SSD, RAID",
+      description: "Komplexní služby záchrany dat z HDD, SSD disků a RAID systémů. Specializovaná laboratoř, moderní technologie.",
+      keywords: "služby, záchrana dat, obnova hdd, obnova ssd, raid recovery"
+    },
+    hddRecovery: {
+      title: "Obnova HDD | DataHelp.eu - Záchrana dat z pevných disků",
+      description: "Profesionální obnova dat z poškozených pevných disků všech výrobců. Řešíme mechanické poškození i elektronické závady.",
+      keywords: "obnova hdd, záchrana dat hdd, oprava pevného disku, poškozený disk"
+    },
+    ssdRecovery: {
+      title: "Obnova SSD | DataHelp.eu - Záchrana dat z SSD disků",
+      description: "Specializovaná záchrana dat z SSD disků včetně NVMe a PCIe. Řešíme všechny typy závad včetně poškozených řadičů.",
+      keywords: "obnova ssd, záchrana dat ssd, nvme recovery, pcie ssd"
+    },
+    raidSystems: {
+      title: "RAID systémy | DataHelp.eu - Obnova dat z RAID polí",
+      description: "Obnova dat z RAID polí všech úrovní a konfigurací. Specializace na serverová úložiště a NAS systémy.",
+      keywords: "raid obnova, raid recovery, nas obnova dat, server recovery"
+    },
+    businessSolutions: {
+      title: "Firemní řešení | DataHelp.eu - Služby pro firmy",
+      description: "Komplexní řešení záchrany dat pro firmy. Prioritní zpracování, SLA, non-stop podpora, individuální přístup.",
+      keywords: "firemní záchrana dat, b2b služby, enterprise řešení, prioritní obnova"
+    },
+    technology: {
+      title: "Technologie | DataHelp.eu - Špičkové vybavení",
+      description: "Využíváme nejmodernější technologie pro obnovu dat. Čisté prostory, specializované nástroje, certifikovaní technici.",
+      keywords: "technologie obnovy dat, čisté prostory, laboratoř, diagnostika"
+    },
+    contact: {
+      title: "Kontakt | DataHelp.eu - Praha, Karlín",
+      description: "Kontaktujte nás pro záchranu vašich dat. Bezplatná diagnostika, laboratoř v Praze-Karlíně, non-stop služby pro firmy.",
+      keywords: "kontakt datahelp, záchrana dat praha, obnova dat kontakt"
+    },
+    pricing: {
+      title: "Ceník | DataHelp.eu - Transparentní ceny",
+      description: "Transparentní ceník služeb obnovy dat. Platíte pouze za úspěšnou záchranu, vstupní diagnostika zdarma.",
+      keywords: "ceník obnovy dat, ceny záchrany dat, diagnostika zdarma"
+    },
+    faq: {
+      title: "FAQ | DataHelp.eu - Časté dotazy",
+      description: "Odpovědi na nejčastější dotazy o záchraně dat. Proces obnovy, ceny, úspěšnost, bezpečnost dat.",
+      keywords: "faq obnova dat, časté dotazy, jak probíhá záchrana dat"
+    },
+    blog: {
+      title: "Blog | DataHelp.eu - Články o obnově dat",
+      description: "Odborné články a návody o záchraně dat. Tipy pro prevenci ztráty dat, novinky z oboru, případové studie.",
+      keywords: "blog obnova dat, články, návody, prevence ztráty dat"
+    },
+    privacy: {
+      title: "Ochrana soukromí | DataHelp.eu",
+      description: "Zásady ochrany osobních údajů a soukromí. Zpracování dat v souladu s GDPR, bezpečnost a důvěrnost.",
+      keywords: "ochrana soukromí, gdpr, osobní údaje"
+    },
+    terms: {
+      title: "Obchodní podmínky | DataHelp.eu",
+      description: "Všeobecné obchodní podmínky společnosti DataHelp. Podmínky služeb, záruky, reklamace.",
+      keywords: "obchodní podmínky, podmínky služeb, reklamace"
+    },
+    cookies: {
+      title: "Cookies | DataHelp.eu",
+      description: "Informace o používání cookies na našem webu. Typy cookies, správa nastavení, ochrana soukromí.",
+      keywords: "cookies, soubory cookie, nastavení cookies"
+    }
+  },
   nav: {
     home: 'Domů',
     services: 'Služby',

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Phone, Mail, MessageSquare, Building } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';

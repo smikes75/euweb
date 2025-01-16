@@ -2,6 +2,7 @@ import { Award, Users, Clock, Shield, Cpu } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 
 export function AboutUsPage() {
   const { t } = useTranslation();
@@ -29,7 +30,15 @@ export function AboutUsPage() {
     }
   ];
 
-  return (
+    return (
+      <>
+        <SEO 
+          title={t('seo.about.title')}
+          description={t('seo.about.description')}
+          keywords={t('seo.about.keywords')}
+          canonical="https://datahelp.eu/about"
+        />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('about.title')}
@@ -79,5 +88,7 @@ export function AboutUsPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

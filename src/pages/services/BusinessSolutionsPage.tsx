@@ -1,7 +1,9 @@
-import React from 'react';
+
 import { Rocket, Handshake, Users, Medal } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Contact } from '../../components/Contact';
+import { SEO } from '../../components/SEO';
+
 export function BusinessSolutionsPage() {
   const { t } = useTranslation();
 
@@ -37,6 +39,14 @@ export function BusinessSolutionsPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.businessSolutions.title')}
+      description={t('seo.businessSolutions.description')}
+      keywords={t('seo.businessSolutions.keywords')}
+      canonical="https://datahelp.eu/services/business-solutions"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <div className="relative">
         <div 
@@ -103,5 +113,7 @@ export function BusinessSolutionsPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

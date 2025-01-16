@@ -1,6 +1,7 @@
-import React from 'react';
+
 import { Smartphone, Zap, Cpu, Database } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO';
 
 export function SSDRecoveryPage() {
   const { t } = useTranslation();
@@ -24,6 +25,14 @@ export function SSDRecoveryPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.ssdRecovery.title')}
+      description={t('seo.ssdRecovery.description')}
+      keywords={t('seo.ssdRecovery.keywords')}
+      canonical="https://datahelp.eu/services/ssd-recovery"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <div className="relative">
         <div 
@@ -111,5 +120,7 @@ export function SSDRecoveryPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

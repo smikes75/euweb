@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Database, Server, ServerCog, ShieldCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

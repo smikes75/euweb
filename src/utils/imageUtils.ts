@@ -19,7 +19,7 @@ export const backgroundImages = {
   services: '/images/backgrounds/services-bg.jpg',
   ssd: '/images/backgrounds/ssd-recovery.jpg',
   terms: '/images/backgrounds/terms-bg.jpg',
-  home: '/images/backgrounds/home-bg.jpg'
+  home: '/images/backgrounds/home-bg.webp'
 };
 
 // Gallery images

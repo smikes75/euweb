@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { FileText, Shield, DollarSign, Award, Lock, HelpCircle } from 'lucide-react';
