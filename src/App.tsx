@@ -20,10 +20,13 @@ import { BlogPostPage } from './pages/blog/BlogPostPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TermsPage } from './pages/TermsPage';
 import { CookiesPage } from './pages/CookiesPage';
+import { NotFoundPage } from './pages/NotFoundPage';
+import { SchemaOrg } from './components/SchemaOrg';
 function App() {
   
   return (
     <HelmetProvider>
+      <SchemaOrg />
       <Router>
         <ScrollToTop />
         <div className="min-h-screen bg-white flex flex-col">
@@ -46,6 +49,7 @@ function App() {
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />
               <Route path="/cookies" element={<CookiesPage />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
           <Footer />
