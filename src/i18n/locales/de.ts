@@ -273,7 +273,7 @@ reviews: {
       address: 'Jirsíkova 541/1\n186 00 Prag 8 - Karlín',
       hours: 'Öffnungszeiten:\nMo-Fr: 9:00 - 18:00\nNotdienst: 24/7',
       phone: '+420 123 456 789',
-      email: 'info@datahelp.cz',
+      email: 'info@datahelp.eu',
       emergency: '24/7 Notfalldienst für Geschäftskunden'
     },
     partners: {

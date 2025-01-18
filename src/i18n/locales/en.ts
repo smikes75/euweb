@@ -278,7 +278,7 @@ export const en = {
       address: 'Jirsíkova 541/1\n186 00 Prague 8 - Karlín',
       hours: 'Opening hours:\nMon-Fri: 9:00 - 18:00\nEmergency: 24/7',
       phone: '+420 123 456 789',
-      email: 'info@datahelp.cz',
+      email: 'info@datahelp.eu',
       emergency: '24/7 Emergency service for business clients'
     },
     partners: {

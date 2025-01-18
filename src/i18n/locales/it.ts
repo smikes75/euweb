@@ -262,7 +262,7 @@ whyChooseUs: 'Perché sceglierci',
       address: 'Jirsíkova 541/1\n186 00 Praga 8 - Karlín',
       hours: 'Orari di apertura:\nLun-Ven: 9:00 - 18:00\nEmergenza: 24/7',
       phone: '+420 123 456 789',
-      email: 'info@datahelp.cz',
+      email: 'info@datahelp.eu',
       emergency: 'Servizio di emergenza 24/7 per clienti aziendali'
     },
     partners: {

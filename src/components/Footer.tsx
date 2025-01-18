@@ -37,10 +37,10 @@ export function Footer() {
               <p>Jirsíkova 541/1</p>
               <p>186 00 Praha 8 - Karlín</p>
               <a 
-                href="mailto:info@datahelp.cz" 
+                href="mailto:info@datahelp.eu" 
                 className="block hover:text-accent transition-colors"
               >
-                info@datahelp.cz
+                info@datahelp.eu
               </a>
               <div className="flex space-x-4 mt-4">
                 <a 
