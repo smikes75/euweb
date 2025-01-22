@@ -43,7 +43,7 @@ export function PrivacyPage() {
       <PageHeader
         title={t('privacy.title')}
         subtitle={t('privacy.subtitle')}
-        backgroundImage="privacy-bg.jpg"
+        backgroundImage="privacy-bg.webp"
       />
       
       <div className="container mx-auto px-4 py-16">

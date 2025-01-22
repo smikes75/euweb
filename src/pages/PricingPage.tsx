@@ -3,6 +3,7 @@ import { HardDrive, Smartphone, Database, Building2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { FAQ } from '../components/FAQ';
+import { SEO } from '../components/SEO';
 
 export function PricingPage() {
   const { t } = useTranslation();
@@ -63,11 +64,19 @@ export function PricingPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.pricing.title')}
+      description={t('seo.pricing.description')}
+      keywords={t('seo.pricing.keywords')}
+      canonical="https://datahelp.eu/pricing"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('pricing.title')}
         subtitle={t('pricing.subtitle')}
-        backgroundImage="pricing-bg.jpg"
+        backgroundImage="pricing-bg.webp"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -110,5 +119,7 @@ export function PricingPage() {
         <FAQ />
       </div>
     </div>
+    };
+    </>
   );
 }

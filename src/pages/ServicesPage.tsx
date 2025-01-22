@@ -3,6 +3,8 @@ import { HardDrive, Smartphone, Database, Handshake, ShieldCheck, Medal, Clock }
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
+import { SEO } from '../components/SEO';
+
 export function ServicesPage() {
   const { t } = useTranslation();
 
@@ -54,11 +56,19 @@ export function ServicesPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.services.title')}
+      description={t('seo.services.description')}
+      keywords={t('seo.services.keywords')}
+      canonical="https://datahelp.eu/services"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('services.title')}
         subtitle={t('services.subtitle')}
-        backgroundImage="services-bg.jpg"
+        backgroundImage="services-bg.webp"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -112,5 +122,7 @@ export function ServicesPage() {
         </div>
       </div>
     </div>
+  };
+    </>
   );
 }

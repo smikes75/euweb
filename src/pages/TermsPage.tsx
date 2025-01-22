@@ -2,6 +2,8 @@
 import { useTranslation } from 'react-i18next';
 import { PageHeader } from '../components/PageHeader';
 import { FileText, Shield, DollarSign, Award, Lock, HelpCircle } from 'lucide-react';
+import { SEO } from '../components/SEO';
+
 
 export function TermsPage() {
   const { t } = useTranslation();
@@ -40,11 +42,19 @@ export function TermsPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.terms.title')}
+      description={t('seo.terms.description')}
+      keywords={t('seo.terms.keywords')}
+      canonical="https://datahelp.eu/terms"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('terms.title')}
         subtitle={t('terms.subtitle')}
-        backgroundImage="terms-bg.jpg"
+        backgroundImage="terms-bg.webp"
       />
       
       <div className="container mx-auto px-4 py-16">
@@ -69,5 +79,7 @@ export function TermsPage() {
         </div>
       </div>
     </div>
-  );
+  };
+  </>
+);
 }

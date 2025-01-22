@@ -7,18 +7,18 @@ export const getBackgroundStyle = (imagePath: string) => ({
 
 // Background images for different sections
 export const backgroundImages = {
-  about: '/images/backgrounds/about-bg.jpg',
-  business: '/images/backgrounds/business-solutions.jpg',
-  contact: '/images/backgrounds/contact-bg.jpg',
-  cookies: '/images/backgrounds/cookies-bg.jpg',
-  faq: '/images/backgrounds/faq-bg.jpg',
-  hdd: '/images/backgrounds/hdd-recovery.jpg',
-  pricing: '/images/backgrounds/pricing-bg.jpg',
-  privacy: '/images/backgrounds/privacy-bg.jpg',
-  raid: '/images/backgrounds/raid-recovery.jpg',
-  services: '/images/backgrounds/services-bg.jpg',
-  ssd: '/images/backgrounds/ssd-recovery.jpg',
-  terms: '/images/backgrounds/terms-bg.jpg',
+  about: '/images/backgrounds/about-bg.webp',
+  business: '/images/backgrounds/business-solutions.webp',
+  contact: '/images/backgrounds/contact-bg.webp',
+  cookies: '/images/backgrounds/cookies-bg.webp',
+  faq: '/images/backgrounds/faq-bg.webp',
+  hdd: '/images/backgrounds/hdd-recovery.webp',
+  pricing: '/images/backgrounds/pricing-bg.webp',
+  privacy: '/images/backgrounds/privacy-bg.webp',
+  raid: '/images/backgrounds/raid-recovery.webp',
+  services: '/images/backgrounds/services-bg.webp',
+  ssd: '/images/backgrounds/ssd-recovery.webp',
+  terms: '/images/backgrounds/terms-bg.webp',
   home: '/images/backgrounds/home-bg.webp'
 };
 

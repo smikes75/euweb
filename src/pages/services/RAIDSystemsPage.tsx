@@ -1,6 +1,7 @@
 
 import { Database, Server, ServerCog, ShieldCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO';
 
 export function RAIDSystemsPage() {
   const { t } = useTranslation();
@@ -24,12 +25,20 @@ export function RAIDSystemsPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.raidSystems.title')}
+      description={t('seo.raidSystems.description')}
+      keywords={t('seo.raidSystems.keywords')}
+      canonical="https://datahelp.eu/services/raid-systems"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <div className="relative">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage: 'url("/images/backgrounds/raid-recovery.jpg")',
+            backgroundImage: 'url("/images/backgrounds/raid-recovery.webp")',
           }}
         >
           <div 
@@ -113,5 +122,7 @@ export function RAIDSystemsPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

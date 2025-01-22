@@ -43,7 +43,7 @@ export function AboutUsPage() {
       <PageHeader
         title={t('about.title')}
         subtitle={t('about.subtitle')}
-        backgroundImage="about-bg.jpg"
+        backgroundImage="about-bg.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

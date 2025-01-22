@@ -1,6 +1,7 @@
 
 import { Phone, Mail, MessageSquare, Building } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { SEO } from '../components/SEO';
 import { PageHeader } from '../components/PageHeader';
 export function ContactPage() {
   const { t } = useTranslation();
@@ -29,11 +30,19 @@ export function ContactPage() {
   ];
 
   return (
+    <>
+    <SEO 
+      title={t('seo.services.title')}
+      description={t('seo.services.description')}
+      keywords={t('seo.services.keywords')}
+      canonical="https://datahelp.eu/services"
+    />
+    {
     <div className="min-h-screen bg-gray-50">
       <PageHeader
         title={t('contact.title')}
         subtitle={t('contact.subtitle')}
-        backgroundImage="contact-bg.jpg"
+        backgroundImage="contact-bg.webp"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -127,5 +136,7 @@ export function ContactPage() {
         </div>
       </div>
     </div>
+    };
+    </>
   );
 }

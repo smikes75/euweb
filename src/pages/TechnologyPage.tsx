@@ -68,7 +68,7 @@ export function TechnologyPage() {
       <PageHeader
         title={t('techPage.title')}
         subtitle={t('techPage.subtitle')}
-        backgroundImage="technology-bg.jpg"
+        backgroundImage="technology-bg.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

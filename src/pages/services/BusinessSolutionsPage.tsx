@@ -52,7 +52,7 @@ export function BusinessSolutionsPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage: 'url("/images/backgrounds/business-solutions.jpg")',
+            backgroundImage: 'url("/images/backgrounds/business-solutions.webp")',
           }}
         >
           <div 

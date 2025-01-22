@@ -16,7 +16,7 @@ export function BlogPage() {
       <PageHeader
         title="Data Recovery Blog"
         subtitle="Expert insights, technical guides, and industry news"
-        backgroundImage="blog-bg.jpg"
+        backgroundImage="blog-bg.webp"
       />
       
       <div className="container mx-auto px-4 py-16">

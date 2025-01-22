@@ -51,7 +51,7 @@ export function CookiesPage() {
       <PageHeader
         title={t('cookies.title')}
         subtitle={t('cookies.subtitle')}
-        backgroundImage="cookies-bg.jpg"
+        backgroundImage="cookies-bg.webp"
       />
       
       <div className="container mx-auto px-4 py-16">
